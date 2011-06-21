@@ -12,7 +12,7 @@ It builds a 32bit 10.5 compatible application bundle.
 ### Getting the code
 
 	$ mkdir ~/code && cd ~/code
-	$ hg clone ssh://hg@bitbucket.org/celeron55/minetest
+	$ hg clone https://bitbucket.org/celeron55/minetest
 	$ cd minetest
 	$ git clone https://github.com/toabi/minetest-mac.git
 	$ cd minetest-mac
