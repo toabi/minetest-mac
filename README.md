@@ -29,6 +29,10 @@ There are now two easy ways to get your app. The final product always ends up in
 * Hit "Build & Run"
 * If everything is OK, the application should launch.
 
+## So you don't like to build?
+
+You can also download a build from [there](https://github.com/toabi/minetest-mac/downloads). But they may be old.
+
 ## Credits
 
 I'm distributing the binary Irrlicht framework release from this [thread](http://irrlicht.sourceforge.net/phpBB2/viewtopic.php?t=42601).
