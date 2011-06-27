@@ -121,6 +121,8 @@
 		D23CCD3E13A6BF9300C9522A /* water.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBC313A6BA3C00C9522A /* water.png */; };
 		D23CCD3F13A6BF9300C9522A /* wood.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBC413A6BA3C00C9522A /* wood.png */; };
 		D24C939713AC26CD0080BDF2 /* content_inventory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D24C939413AC26CD0080BDF2 /* content_inventory.cpp */; };
+		D2C8D38F13B76C3C00AE9330 /* mapgen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */; };
+		D2C8D39013B76C5100AE9330 /* mapgen.h in Sources */ = {isa = PBXBuildFile; fileRef = D2C8D38E13B76C3C00AE9330 /* mapgen.h */; };
 		D2D2862313ABD310004BDB7B /* minetest-mac.sh in Copy minetest.sh */ = {isa = PBXBuildFile; fileRef = D2D2861C13ABD2CD004BDB7B /* minetest-mac.sh */; };
 		D2D2899313AC1529004BDB7B /* content_craft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2898B13AC1529004BDB7B /* content_craft.cpp */; };
 		D2D2899413AC1529004BDB7B /* content_mapblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2898D13AC1529004BDB7B /* content_mapblock.cpp */; };
@@ -405,6 +407,8 @@
 		D24C939413AC26CD0080BDF2 /* content_inventory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = content_inventory.cpp; sourceTree = "<group>"; };
 		D24C939513AC26CD0080BDF2 /* content_inventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_inventory.h; sourceTree = "<group>"; };
 		D24C939613AC26CD0080BDF2 /* mapblock_nodemod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapblock_nodemod.h; sourceTree = "<group>"; };
+		D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapgen.cpp; sourceTree = "<group>"; };
+		D2C8D38E13B76C3C00AE9330 /* mapgen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapgen.h; sourceTree = "<group>"; };
 		D2D2861C13ABD2CD004BDB7B /* minetest-mac.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "minetest-mac.sh"; sourceTree = "<group>"; };
 		D2D2898B13AC1529004BDB7B /* content_craft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = content_craft.cpp; sourceTree = "<group>"; };
 		D2D2898C13AC1529004BDB7B /* content_craft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_craft.h; sourceTree = "<group>"; };
@@ -507,6 +511,8 @@
 		D23CC83513A6B2A900C9522A /* src */ = {
 			isa = PBXGroup;
 			children = (
+				D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */,
+				D2C8D38E13B76C3C00AE9330 /* mapgen.h */,
 				D24C939413AC26CD0080BDF2 /* content_inventory.cpp */,
 				D24C939513AC26CD0080BDF2 /* content_inventory.h */,
 				D24C939613AC26CD0080BDF2 /* mapblock_nodemod.h */,
@@ -760,6 +766,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C8D38F13B76C3C00AE9330 /* mapgen.cpp in Sources */,
+				D2C8D39013B76C5100AE9330 /* mapgen.h in Sources */,
 				D23CC8DA13A6B2A900C9522A /* clouds.cpp in Sources */,
 				D24C939713AC26CD0080BDF2 /* content_inventory.cpp in Sources */,
 				D23CC92913A6B2A900C9522A /* serverobject.cpp in Sources */,
