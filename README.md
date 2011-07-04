@@ -2,6 +2,8 @@
 
 This Xcode project can be used to build [minetest-c55](https://bitbucket.org/celeron55/minetest).
 
+Use the branch `delta` if you want to build [minetest-delta](https://github.com/erlehmann/minetest-delta).
+
 ## Requirements
 
 This was tested on OS X 10.6 with Xcode 3. It includes all needed 3rd party libraries.
