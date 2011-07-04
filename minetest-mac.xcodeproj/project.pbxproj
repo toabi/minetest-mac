@@ -121,6 +121,46 @@
 		D23CCD3E13A6BF9300C9522A /* water.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBC313A6BA3C00C9522A /* water.png */; };
 		D23CCD3F13A6BF9300C9522A /* wood.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBC413A6BA3C00C9522A /* wood.png */; };
 		D24C939713AC26CD0080BDF2 /* content_inventory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D24C939413AC26CD0080BDF2 /* content_inventory.cpp */; };
+		D2C1418B13C24401007009A1 /* guiKeyChangeMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C1418913C24401007009A1 /* guiKeyChangeMenu.cpp */; };
+		D2C1418C13C2441F007009A1 /* guiKeyChangeMenu.h in Sources */ = {isa = PBXBuildFile; fileRef = D2C1418A13C24401007009A1 /* guiKeyChangeMenu.h */; };
+		D2C141A013C24435007009A1 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1418D13C24435007009A1 /* book.png */; };
+		D2C141A113C24435007009A1 /* bookshelf.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1418E13C24435007009A1 /* bookshelf.png */; };
+		D2C141A213C24435007009A1 /* brick.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1418F13C24435007009A1 /* brick.png */; };
+		D2C141A313C24435007009A1 /* cactus_side.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1419013C24435007009A1 /* cactus_side.png */; };
+		D2C141A413C24435007009A1 /* cactus_top.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1419113C24435007009A1 /* cactus_top.png */; };
+		D2C141A513C24435007009A1 /* clay_brick.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1419213C24435007009A1 /* clay_brick.png */; };
+		D2C141A613C24435007009A1 /* clay.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1419313C24435007009A1 /* clay.png */; };
+		D2C141A713C24435007009A1 /* fence.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1419413C24435007009A1 /* fence.png */; };
+		D2C141A813C24435007009A1 /* gravel.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1419513C24435007009A1 /* gravel.png */; };
+		D2C141A913C24435007009A1 /* lump_of_clay.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1419613C24435007009A1 /* lump_of_clay.png */; };
+		D2C141AA13C24435007009A1 /* mossycobble.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1419713C24435007009A1 /* mossycobble.png */; };
+		D2C141AB13C24435007009A1 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1419813C24435007009A1 /* paper.png */; };
+		D2C141AC13C24435007009A1 /* papyrus.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1419913C24435007009A1 /* papyrus.png */; };
+		D2C141AD13C24435007009A1 /* rail_crossing.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1419A13C24435007009A1 /* rail_crossing.png */; };
+		D2C141AE13C24435007009A1 /* rail_curved.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1419B13C24435007009A1 /* rail_curved.png */; };
+		D2C141AF13C24435007009A1 /* rail_t_junction.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1419C13C24435007009A1 /* rail_t_junction.png */; };
+		D2C141B013C24435007009A1 /* rail.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1419D13C24435007009A1 /* rail.png */; };
+		D2C141B113C24435007009A1 /* sandstone.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1419E13C24435007009A1 /* sandstone.png */; };
+		D2C141B213C24435007009A1 /* treeprop.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1419F13C24435007009A1 /* treeprop.png */; };
+		D2C141B313C24448007009A1 /* book.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1418D13C24435007009A1 /* book.png */; };
+		D2C141B413C24448007009A1 /* bookshelf.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1418E13C24435007009A1 /* bookshelf.png */; };
+		D2C141B513C24448007009A1 /* brick.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1418F13C24435007009A1 /* brick.png */; };
+		D2C141B613C24448007009A1 /* cactus_side.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419013C24435007009A1 /* cactus_side.png */; };
+		D2C141B713C24448007009A1 /* cactus_top.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419113C24435007009A1 /* cactus_top.png */; };
+		D2C141B813C24448007009A1 /* clay.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419313C24435007009A1 /* clay.png */; };
+		D2C141B913C24448007009A1 /* clay_brick.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419213C24435007009A1 /* clay_brick.png */; };
+		D2C141BA13C24448007009A1 /* fence.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419413C24435007009A1 /* fence.png */; };
+		D2C141BB13C24448007009A1 /* gravel.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419513C24435007009A1 /* gravel.png */; };
+		D2C141BC13C24448007009A1 /* lump_of_clay.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419613C24435007009A1 /* lump_of_clay.png */; };
+		D2C141BD13C24448007009A1 /* mossycobble.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419713C24435007009A1 /* mossycobble.png */; };
+		D2C141BE13C24448007009A1 /* paper.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419813C24435007009A1 /* paper.png */; };
+		D2C141BF13C24448007009A1 /* papyrus.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419913C24435007009A1 /* papyrus.png */; };
+		D2C141C013C24448007009A1 /* rail.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419D13C24435007009A1 /* rail.png */; };
+		D2C141C113C24448007009A1 /* rail_crossing.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419A13C24435007009A1 /* rail_crossing.png */; };
+		D2C141C213C24448007009A1 /* rail_curved.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419B13C24435007009A1 /* rail_curved.png */; };
+		D2C141C313C24448007009A1 /* rail_t_junction.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419C13C24435007009A1 /* rail_t_junction.png */; };
+		D2C141C413C24448007009A1 /* sandstone.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419E13C24435007009A1 /* sandstone.png */; };
+		D2C141C513C24448007009A1 /* treeprop.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419F13C24435007009A1 /* treeprop.png */; };
 		D2C8D38F13B76C3C00AE9330 /* mapgen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */; };
 		D2C8D39013B76C5100AE9330 /* mapgen.h in Sources */ = {isa = PBXBuildFile; fileRef = D2C8D38E13B76C3C00AE9330 /* mapgen.h */; };
 		D2D2862313ABD310004BDB7B /* minetest-mac.sh in Copy minetest.sh */ = {isa = PBXBuildFile; fileRef = D2D2861C13ABD2CD004BDB7B /* minetest-mac.sh */; };
@@ -150,12 +190,20 @@
 			dstPath = data;
 			dstSubfolderSpec = 7;
 			files = (
+				D2C141B313C24448007009A1 /* book.png in Copy Textures */,
+				D2C141B413C24448007009A1 /* bookshelf.png in Copy Textures */,
+				D2C141B513C24448007009A1 /* brick.png in Copy Textures */,
+				D2C141B613C24448007009A1 /* cactus_side.png in Copy Textures */,
+				D2C141B713C24448007009A1 /* cactus_top.png in Copy Textures */,
 				D23CCD0313A6BF9300C9522A /* chest_front.png in Copy Textures */,
 				D23CCD0413A6BF9300C9522A /* chest_side.png in Copy Textures */,
 				D23CCD0513A6BF9300C9522A /* chest_top.png in Copy Textures */,
+				D2C141B813C24448007009A1 /* clay.png in Copy Textures */,
+				D2C141B913C24448007009A1 /* clay_brick.png in Copy Textures */,
 				D23CCD0613A6BF9300C9522A /* cloud.png in Copy Textures */,
 				D23CCD0713A6BF9300C9522A /* cobble.png in Copy Textures */,
 				D23CCD0813A6BF9300C9522A /* crack.png in Copy Textures */,
+				D2C141BA13C24448007009A1 /* fence.png in Copy Textures */,
 				D23CCD0913A6BF9300C9522A /* fontlucida.png in Copy Textures */,
 				D23CCD0A13A6BF9300C9522A /* furnace_front.png in Copy Textures */,
 				D23CCD0B13A6BF9300C9522A /* furnace_side.png in Copy Textures */,
@@ -163,21 +211,31 @@
 				D23CCD0D13A6BF9300C9522A /* grass.png in Copy Textures */,
 				D23CCD0E13A6BF9300C9522A /* grass_footsteps.png in Copy Textures */,
 				D23CCD0F13A6BF9300C9522A /* grass_side.png in Copy Textures */,
+				D2C141BB13C24448007009A1 /* gravel.png in Copy Textures */,
 				D23CCD1013A6BF9300C9522A /* heart.png in Copy Textures */,
 				D23CCD1113A6BF9300C9522A /* item_fence.png in Copy Textures */,
 				D23CCD1213A6BF9300C9522A /* leaves.png in Copy Textures */,
+				D2C141BC13C24448007009A1 /* lump_of_clay.png in Copy Textures */,
 				D23CCD1313A6BF9300C9522A /* lump_of_coal.png in Copy Textures */,
 				D23CCD1413A6BF9300C9522A /* lump_of_iron.png in Copy Textures */,
 				D23CCD1513A6BF9300C9522A /* menulogo.png in Copy Textures */,
 				D23CCD1613A6BF9300C9522A /* mese.png in Copy Textures */,
 				D23CCD1713A6BF9300C9522A /* mineral_coal.png in Copy Textures */,
 				D23CCD1813A6BF9300C9522A /* mineral_iron.png in Copy Textures */,
+				D2C141BD13C24448007009A1 /* mossycobble.png in Copy Textures */,
 				D23CCD1913A6BF9300C9522A /* mud.png in Copy Textures */,
 				D23CCD1A13A6BF9300C9522A /* oerkki1.png in Copy Textures */,
+				D2C141BE13C24448007009A1 /* paper.png in Copy Textures */,
+				D2C141BF13C24448007009A1 /* papyrus.png in Copy Textures */,
 				D23CCD1B13A6BF9300C9522A /* player.png in Copy Textures */,
 				D23CCD1C13A6BF9300C9522A /* player_back.png in Copy Textures */,
+				D2C141C013C24448007009A1 /* rail.png in Copy Textures */,
+				D2C141C113C24448007009A1 /* rail_crossing.png in Copy Textures */,
+				D2C141C213C24448007009A1 /* rail_curved.png in Copy Textures */,
+				D2C141C313C24448007009A1 /* rail_t_junction.png in Copy Textures */,
 				D23CCD1D13A6BF9300C9522A /* rat.png in Copy Textures */,
 				D23CCD1E13A6BF9300C9522A /* sand.png in Copy Textures */,
+				D2C141C413C24448007009A1 /* sandstone.png in Copy Textures */,
 				D23CCD1F13A6BF9300C9522A /* sign.png in Copy Textures */,
 				D23CCD2013A6BF9300C9522A /* sign_back.png in Copy Textures */,
 				D23CCD2113A6BF9300C9522A /* sign_wall.png in Copy Textures */,
@@ -209,6 +267,7 @@
 				D23CCD3B13A6BF9300C9522A /* torch_on_floor.png in Copy Textures */,
 				D23CCD3C13A6BF9300C9522A /* tree.png in Copy Textures */,
 				D23CCD3D13A6BF9300C9522A /* tree_top.png in Copy Textures */,
+				D2C141C513C24448007009A1 /* treeprop.png in Copy Textures */,
 				D23CCD3E13A6BF9300C9522A /* water.png in Copy Textures */,
 				D23CCD3F13A6BF9300C9522A /* wood.png in Copy Textures */,
 			);
@@ -407,6 +466,27 @@
 		D24C939413AC26CD0080BDF2 /* content_inventory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = content_inventory.cpp; sourceTree = "<group>"; };
 		D24C939513AC26CD0080BDF2 /* content_inventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_inventory.h; sourceTree = "<group>"; };
 		D24C939613AC26CD0080BDF2 /* mapblock_nodemod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapblock_nodemod.h; sourceTree = "<group>"; };
+		D2C1418913C24401007009A1 /* guiKeyChangeMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guiKeyChangeMenu.cpp; sourceTree = "<group>"; };
+		D2C1418A13C24401007009A1 /* guiKeyChangeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiKeyChangeMenu.h; sourceTree = "<group>"; };
+		D2C1418D13C24435007009A1 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		D2C1418E13C24435007009A1 /* bookshelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookshelf.png; sourceTree = "<group>"; };
+		D2C1418F13C24435007009A1 /* brick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick.png; sourceTree = "<group>"; };
+		D2C1419013C24435007009A1 /* cactus_side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cactus_side.png; sourceTree = "<group>"; };
+		D2C1419113C24435007009A1 /* cactus_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cactus_top.png; sourceTree = "<group>"; };
+		D2C1419213C24435007009A1 /* clay_brick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clay_brick.png; sourceTree = "<group>"; };
+		D2C1419313C24435007009A1 /* clay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clay.png; sourceTree = "<group>"; };
+		D2C1419413C24435007009A1 /* fence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fence.png; sourceTree = "<group>"; };
+		D2C1419513C24435007009A1 /* gravel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gravel.png; sourceTree = "<group>"; };
+		D2C1419613C24435007009A1 /* lump_of_clay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lump_of_clay.png; sourceTree = "<group>"; };
+		D2C1419713C24435007009A1 /* mossycobble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mossycobble.png; sourceTree = "<group>"; };
+		D2C1419813C24435007009A1 /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
+		D2C1419913C24435007009A1 /* papyrus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = papyrus.png; sourceTree = "<group>"; };
+		D2C1419A13C24435007009A1 /* rail_crossing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rail_crossing.png; sourceTree = "<group>"; };
+		D2C1419B13C24435007009A1 /* rail_curved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rail_curved.png; sourceTree = "<group>"; };
+		D2C1419C13C24435007009A1 /* rail_t_junction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rail_t_junction.png; sourceTree = "<group>"; };
+		D2C1419D13C24435007009A1 /* rail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rail.png; sourceTree = "<group>"; };
+		D2C1419E13C24435007009A1 /* sandstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sandstone.png; sourceTree = "<group>"; };
+		D2C1419F13C24435007009A1 /* treeprop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treeprop.png; sourceTree = "<group>"; };
 		D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapgen.cpp; sourceTree = "<group>"; };
 		D2C8D38E13B76C3C00AE9330 /* mapgen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapgen.h; sourceTree = "<group>"; };
 		D2D2861C13ABD2CD004BDB7B /* minetest-mac.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "minetest-mac.sh"; sourceTree = "<group>"; };
@@ -511,6 +591,8 @@
 		D23CC83513A6B2A900C9522A /* src */ = {
 			isa = PBXGroup;
 			children = (
+				D2C1418913C24401007009A1 /* guiKeyChangeMenu.cpp */,
+				D2C1418A13C24401007009A1 /* guiKeyChangeMenu.h */,
 				D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */,
 				D2C8D38E13B76C3C00AE9330 /* mapgen.h */,
 				D24C939413AC26CD0080BDF2 /* content_inventory.cpp */,
@@ -635,6 +717,25 @@
 		D23CCB8713A6BA3C00C9522A /* data */ = {
 			isa = PBXGroup;
 			children = (
+				D2C1418D13C24435007009A1 /* book.png */,
+				D2C1418E13C24435007009A1 /* bookshelf.png */,
+				D2C1418F13C24435007009A1 /* brick.png */,
+				D2C1419013C24435007009A1 /* cactus_side.png */,
+				D2C1419113C24435007009A1 /* cactus_top.png */,
+				D2C1419213C24435007009A1 /* clay_brick.png */,
+				D2C1419313C24435007009A1 /* clay.png */,
+				D2C1419413C24435007009A1 /* fence.png */,
+				D2C1419513C24435007009A1 /* gravel.png */,
+				D2C1419613C24435007009A1 /* lump_of_clay.png */,
+				D2C1419713C24435007009A1 /* mossycobble.png */,
+				D2C1419813C24435007009A1 /* paper.png */,
+				D2C1419913C24435007009A1 /* papyrus.png */,
+				D2C1419A13C24435007009A1 /* rail_crossing.png */,
+				D2C1419B13C24435007009A1 /* rail_curved.png */,
+				D2C1419C13C24435007009A1 /* rail_t_junction.png */,
+				D2C1419D13C24435007009A1 /* rail.png */,
+				D2C1419E13C24435007009A1 /* sandstone.png */,
+				D2C1419F13C24435007009A1 /* treeprop.png */,
 				D23CCB8813A6BA3C00C9522A /* chest_front.png */,
 				D23CCB8913A6BA3C00C9522A /* chest_side.png */,
 				D23CCB8A13A6BA3C00C9522A /* chest_top.png */,
@@ -756,6 +857,25 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				D2C141A013C24435007009A1 /* book.png in Resources */,
+				D2C141A113C24435007009A1 /* bookshelf.png in Resources */,
+				D2C141A213C24435007009A1 /* brick.png in Resources */,
+				D2C141A313C24435007009A1 /* cactus_side.png in Resources */,
+				D2C141A413C24435007009A1 /* cactus_top.png in Resources */,
+				D2C141A513C24435007009A1 /* clay_brick.png in Resources */,
+				D2C141A613C24435007009A1 /* clay.png in Resources */,
+				D2C141A713C24435007009A1 /* fence.png in Resources */,
+				D2C141A813C24435007009A1 /* gravel.png in Resources */,
+				D2C141A913C24435007009A1 /* lump_of_clay.png in Resources */,
+				D2C141AA13C24435007009A1 /* mossycobble.png in Resources */,
+				D2C141AB13C24435007009A1 /* paper.png in Resources */,
+				D2C141AC13C24435007009A1 /* papyrus.png in Resources */,
+				D2C141AD13C24435007009A1 /* rail_crossing.png in Resources */,
+				D2C141AE13C24435007009A1 /* rail_curved.png in Resources */,
+				D2C141AF13C24435007009A1 /* rail_t_junction.png in Resources */,
+				D2C141B013C24435007009A1 /* rail.png in Resources */,
+				D2C141B113C24435007009A1 /* sandstone.png in Resources */,
+				D2C141B213C24435007009A1 /* treeprop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -766,6 +886,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C1418B13C24401007009A1 /* guiKeyChangeMenu.cpp in Sources */,
+				D2C1418C13C2441F007009A1 /* guiKeyChangeMenu.h in Sources */,
 				D2C8D38F13B76C3C00AE9330 /* mapgen.cpp in Sources */,
 				D2C8D39013B76C5100AE9330 /* mapgen.h in Sources */,
 				D23CC8DA13A6B2A900C9522A /* clouds.cpp in Sources */,
