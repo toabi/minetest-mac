@@ -121,8 +121,9 @@
 		D23CCD3E13A6BF9300C9522A /* water.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBC313A6BA3C00C9522A /* water.png */; };
 		D23CCD3F13A6BF9300C9522A /* wood.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBC413A6BA3C00C9522A /* wood.png */; };
 		D24C939713AC26CD0080BDF2 /* content_inventory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D24C939413AC26CD0080BDF2 /* content_inventory.cpp */; };
+		D27531E413C4A21F004B1554 /* content_cao.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27531DF13C4A21F004B1554 /* content_cao.cpp */; };
+		D27531E513C4A21F004B1554 /* content_sao.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27531E213C4A21F004B1554 /* content_sao.cpp */; };
 		D2C8D38F13B76C3C00AE9330 /* mapgen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */; };
-		D2C8D39013B76C5100AE9330 /* mapgen.h in Sources */ = {isa = PBXBuildFile; fileRef = D2C8D38E13B76C3C00AE9330 /* mapgen.h */; };
 		D2D2862313ABD310004BDB7B /* minetest-mac.sh in Copy minetest.sh */ = {isa = PBXBuildFile; fileRef = D2D2861C13ABD2CD004BDB7B /* minetest-mac.sh */; };
 		D2D2899313AC1529004BDB7B /* content_craft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2898B13AC1529004BDB7B /* content_craft.cpp */; };
 		D2D2899413AC1529004BDB7B /* content_mapblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2898D13AC1529004BDB7B /* content_mapblock.cpp */; };
@@ -407,6 +408,11 @@
 		D24C939413AC26CD0080BDF2 /* content_inventory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = content_inventory.cpp; sourceTree = "<group>"; };
 		D24C939513AC26CD0080BDF2 /* content_inventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_inventory.h; sourceTree = "<group>"; };
 		D24C939613AC26CD0080BDF2 /* mapblock_nodemod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapblock_nodemod.h; sourceTree = "<group>"; };
+		D27531DF13C4A21F004B1554 /* content_cao.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = content_cao.cpp; sourceTree = "<group>"; };
+		D27531E013C4A21F004B1554 /* content_cao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_cao.h; sourceTree = "<group>"; };
+		D27531E113C4A21F004B1554 /* content_object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_object.h; sourceTree = "<group>"; };
+		D27531E213C4A21F004B1554 /* content_sao.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = content_sao.cpp; sourceTree = "<group>"; };
+		D27531E313C4A21F004B1554 /* content_sao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_sao.h; sourceTree = "<group>"; };
 		D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapgen.cpp; sourceTree = "<group>"; };
 		D2C8D38E13B76C3C00AE9330 /* mapgen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapgen.h; sourceTree = "<group>"; };
 		D2D2861C13ABD2CD004BDB7B /* minetest-mac.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "minetest-mac.sh"; sourceTree = "<group>"; };
@@ -511,6 +517,11 @@
 		D23CC83513A6B2A900C9522A /* src */ = {
 			isa = PBXGroup;
 			children = (
+				D27531DF13C4A21F004B1554 /* content_cao.cpp */,
+				D27531E013C4A21F004B1554 /* content_cao.h */,
+				D27531E113C4A21F004B1554 /* content_object.h */,
+				D27531E213C4A21F004B1554 /* content_sao.cpp */,
+				D27531E313C4A21F004B1554 /* content_sao.h */,
 				D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */,
 				D2C8D38E13B76C3C00AE9330 /* mapgen.h */,
 				D24C939413AC26CD0080BDF2 /* content_inventory.cpp */,
@@ -766,58 +777,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C8D38F13B76C3C00AE9330 /* mapgen.cpp in Sources */,
-				D2C8D39013B76C5100AE9330 /* mapgen.h in Sources */,
-				D23CC8DA13A6B2A900C9522A /* clouds.cpp in Sources */,
-				D24C939713AC26CD0080BDF2 /* content_inventory.cpp in Sources */,
-				D23CC92913A6B2A900C9522A /* serverobject.cpp in Sources */,
-				D2D2899E13AC15FD004BDB7B /* mapblock_mesh.cpp in Sources */,
-				D23CC91613A6B2A900C9522A /* keycode.cpp in Sources */,
-				D23CC92E13A6B2A900C9522A /* utility.cpp in Sources */,
-				D23CC91E13A6B2A900C9522A /* mapsector.cpp in Sources */,
-				D23CC92A13A6B2A900C9522A /* sha1.cpp in Sources */,
-				D23CC92013A6B2A900C9522A /* mineral.cpp in Sources */,
-				D23CC8FF13A6B2A900C9522A /* guiPauseMenu.cpp in Sources */,
-				D23CC8FC13A6B2A900C9522A /* guiMainMenu.cpp in Sources */,
-				D23CC91B13A6B2A900C9522A /* mapblock.cpp in Sources */,
-				D23CC8D713A6B2A900C9522A /* base64.cpp in Sources */,
-				D23CC8F613A6B2A900C9522A /* environment.cpp in Sources */,
-				D23CC8FE13A6B2A900C9522A /* guiPasswordChange.cpp in Sources */,
-				D23CC8F213A6B2A900C9522A /* collision.cpp in Sources */,
-				D23CC90013A6B2A900C9522A /* guiTextInputMenu.cpp in Sources */,
-				D23CC90113A6B2A900C9522A /* inventory.cpp in Sources */,
-				D23CC92713A6B2A900C9522A /* servercommand.cpp in Sources */,
-				D23CC92213A6B2A900C9522A /* noise.cpp in Sources */,
-				D23CC8F413A6B2A900C9522A /* debug.cpp in Sources */,
-				D23CC91F13A6B2A900C9522A /* materials.cpp in Sources */,
-				D23CC92313A6B2A900C9522A /* player.cpp in Sources */,
-				D23CC8F913A6B2A900C9522A /* game.cpp in Sources */,
-				D2D2899313AC1529004BDB7B /* content_craft.cpp in Sources */,
-				D23CC92F13A6B2A900C9522A /* voxel.cpp in Sources */,
 				D23CC8D613A6B2A900C9522A /* auth.cpp in Sources */,
+				D23CC8D713A6B2A900C9522A /* base64.cpp in Sources */,
+				D23CC8D813A6B2A900C9522A /* client.cpp in Sources */,
 				D23CC8D913A6B2A900C9522A /* clientobject.cpp in Sources */,
-				D23CC92D13A6B2A900C9522A /* tile.cpp in Sources */,
+				D23CC8DA13A6B2A900C9522A /* clouds.cpp in Sources */,
+				D23CC8F213A6B2A900C9522A /* collision.cpp in Sources */,
+				D23CC8F313A6B2A900C9522A /* connection.cpp in Sources */,
+				D27531E413C4A21F004B1554 /* content_cao.cpp in Sources */,
+				D2D2899313AC1529004BDB7B /* content_craft.cpp in Sources */,
+				D24C939713AC26CD0080BDF2 /* content_inventory.cpp in Sources */,
+				D2D2899413AC1529004BDB7B /* content_mapblock.cpp in Sources */,
 				D2D2899513AC1529004BDB7B /* content_mapnode.cpp in Sources */,
 				D2D2899613AC1529004BDB7B /* content_nodemeta.cpp in Sources */,
-				D23CC8D813A6B2A900C9522A /* client.cpp in Sources */,
-				D23CC92C13A6B2A900C9522A /* test.cpp in Sources */,
-				D23CC92113A6B2A900C9522A /* nodemetadata.cpp in Sources */,
-				D23CC8FB13A6B2A900C9522A /* guiInventoryMenu.cpp in Sources */,
-				D23CC8F713A6B2A900C9522A /* farmesh.cpp in Sources */,
+				D27531E513C4A21F004B1554 /* content_sao.cpp in Sources */,
+				D23CC8F413A6B2A900C9522A /* debug.cpp in Sources */,
 				D23CC8F513A6B2A900C9522A /* defaultsettings.cpp in Sources */,
-				D23CC91C13A6B2A900C9522A /* mapblockobject.cpp in Sources */,
-				D23CC8FD13A6B2A900C9522A /* guiMessageMenu.cpp in Sources */,
-				D23CC91A13A6B2A900C9522A /* map.cpp in Sources */,
-				D2D2899413AC1529004BDB7B /* content_mapblock.cpp in Sources */,
+				D23CC8F613A6B2A900C9522A /* environment.cpp in Sources */,
+				D23CC8F713A6B2A900C9522A /* farmesh.cpp in Sources */,
 				D23CC8F813A6B2A900C9522A /* filesys.cpp in Sources */,
+				D23CC8F913A6B2A900C9522A /* game.cpp in Sources */,
+				D23CC8FB13A6B2A900C9522A /* guiInventoryMenu.cpp in Sources */,
+				D23CC8FC13A6B2A900C9522A /* guiMainMenu.cpp in Sources */,
+				D23CC8FD13A6B2A900C9522A /* guiMessageMenu.cpp in Sources */,
+				D23CC8FE13A6B2A900C9522A /* guiPasswordChange.cpp in Sources */,
+				D23CC8FF13A6B2A900C9522A /* guiPauseMenu.cpp in Sources */,
+				D23CC90013A6B2A900C9522A /* guiTextInputMenu.cpp in Sources */,
+				D23CC90113A6B2A900C9522A /* inventory.cpp in Sources */,
+				D23CC91613A6B2A900C9522A /* keycode.cpp in Sources */,
+				D23CC91713A6B2A900C9522A /* light.cpp in Sources */,
+				D23CC91813A6B2A900C9522A /* main.cpp in Sources */,
+				D23CC91A13A6B2A900C9522A /* map.cpp in Sources */,
+				D23CC91B13A6B2A900C9522A /* mapblock.cpp in Sources */,
+				D2D2899E13AC15FD004BDB7B /* mapblock_mesh.cpp in Sources */,
+				D23CC91C13A6B2A900C9522A /* mapblockobject.cpp in Sources */,
+				D2C8D38F13B76C3C00AE9330 /* mapgen.cpp in Sources */,
+				D23CC91D13A6B2A900C9522A /* mapnode.cpp in Sources */,
+				D23CC91E13A6B2A900C9522A /* mapsector.cpp in Sources */,
+				D23CC91F13A6B2A900C9522A /* materials.cpp in Sources */,
+				D23CC92013A6B2A900C9522A /* mineral.cpp in Sources */,
+				D23CC92113A6B2A900C9522A /* nodemetadata.cpp in Sources */,
+				D23CC92213A6B2A900C9522A /* noise.cpp in Sources */,
+				D23CC92313A6B2A900C9522A /* player.cpp in Sources */,
 				D23CC92413A6B2A900C9522A /* porting.cpp in Sources */,
 				D23CC92513A6B2A900C9522A /* serialization.cpp in Sources */,
-				D23CC92B13A6B2A900C9522A /* socket.cpp in Sources */,
-				D23CC91713A6B2A900C9522A /* light.cpp in Sources */,
 				D23CC92613A6B2A900C9522A /* server.cpp in Sources */,
-				D23CC8F313A6B2A900C9522A /* connection.cpp in Sources */,
-				D23CC91813A6B2A900C9522A /* main.cpp in Sources */,
-				D23CC91D13A6B2A900C9522A /* mapnode.cpp in Sources */,
+				D23CC92713A6B2A900C9522A /* servercommand.cpp in Sources */,
+				D23CC92913A6B2A900C9522A /* serverobject.cpp in Sources */,
+				D23CC92A13A6B2A900C9522A /* sha1.cpp in Sources */,
+				D23CC92B13A6B2A900C9522A /* socket.cpp in Sources */,
+				D23CC92C13A6B2A900C9522A /* test.cpp in Sources */,
+				D23CC92D13A6B2A900C9522A /* tile.cpp in Sources */,
+				D23CC92E13A6B2A900C9522A /* utility.cpp in Sources */,
+				D23CC92F13A6B2A900C9522A /* voxel.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
