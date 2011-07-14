@@ -10,6 +10,8 @@
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D21E838513CF9A8C00BDF164 /* content_cao.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D21E838013CF9A8C00BDF164 /* content_cao.cpp */; };
+		D21E838613CF9A8C00BDF164 /* content_sao.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D21E838313CF9A8C00BDF164 /* content_sao.cpp */; };
 		D23CC8D613A6B2A900C9522A /* auth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC83713A6B2A900C9522A /* auth.cpp */; };
 		D23CC8D713A6B2A900C9522A /* base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC83913A6B2A900C9522A /* base64.cpp */; };
 		D23CC8D813A6B2A900C9522A /* client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC83B13A6B2A900C9522A /* client.cpp */; };
@@ -122,7 +124,6 @@
 		D23CCD3F13A6BF9300C9522A /* wood.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBC413A6BA3C00C9522A /* wood.png */; };
 		D24C939713AC26CD0080BDF2 /* content_inventory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D24C939413AC26CD0080BDF2 /* content_inventory.cpp */; };
 		D2C1418B13C24401007009A1 /* guiKeyChangeMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C1418913C24401007009A1 /* guiKeyChangeMenu.cpp */; };
-		D2C1418C13C2441F007009A1 /* guiKeyChangeMenu.h in Sources */ = {isa = PBXBuildFile; fileRef = D2C1418A13C24401007009A1 /* guiKeyChangeMenu.h */; };
 		D2C141A013C24435007009A1 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1418D13C24435007009A1 /* book.png */; };
 		D2C141A113C24435007009A1 /* bookshelf.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1418E13C24435007009A1 /* bookshelf.png */; };
 		D2C141A213C24435007009A1 /* brick.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C1418F13C24435007009A1 /* brick.png */; };
@@ -162,7 +163,6 @@
 		D2C141C413C24448007009A1 /* sandstone.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419E13C24435007009A1 /* sandstone.png */; };
 		D2C141C513C24448007009A1 /* treeprop.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C1419F13C24435007009A1 /* treeprop.png */; };
 		D2C8D38F13B76C3C00AE9330 /* mapgen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */; };
-		D2C8D39013B76C5100AE9330 /* mapgen.h in Sources */ = {isa = PBXBuildFile; fileRef = D2C8D38E13B76C3C00AE9330 /* mapgen.h */; };
 		D2D2862313ABD310004BDB7B /* minetest-mac.sh in Copy minetest.sh */ = {isa = PBXBuildFile; fileRef = D2D2861C13ABD2CD004BDB7B /* minetest-mac.sh */; };
 		D2D2899313AC1529004BDB7B /* content_craft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2898B13AC1529004BDB7B /* content_craft.cpp */; };
 		D2D2899413AC1529004BDB7B /* content_mapblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2898D13AC1529004BDB7B /* content_mapblock.cpp */; };
@@ -297,6 +297,11 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* minetest_mac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "minetest_mac-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Minetest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minetest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21E838013CF9A8C00BDF164 /* content_cao.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = content_cao.cpp; sourceTree = "<group>"; };
+		D21E838113CF9A8C00BDF164 /* content_cao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_cao.h; sourceTree = "<group>"; };
+		D21E838213CF9A8C00BDF164 /* content_object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_object.h; sourceTree = "<group>"; };
+		D21E838313CF9A8C00BDF164 /* content_sao.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = content_sao.cpp; sourceTree = "<group>"; };
+		D21E838413CF9A8C00BDF164 /* content_sao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_sao.h; sourceTree = "<group>"; };
 		D23CC83613A6B2A900C9522A /* activeobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = activeobject.h; sourceTree = "<group>"; };
 		D23CC83713A6B2A900C9522A /* auth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = auth.cpp; sourceTree = "<group>"; };
 		D23CC83813A6B2A900C9522A /* auth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auth.h; sourceTree = "<group>"; };
@@ -591,6 +596,11 @@
 		D23CC83513A6B2A900C9522A /* src */ = {
 			isa = PBXGroup;
 			children = (
+				D21E838013CF9A8C00BDF164 /* content_cao.cpp */,
+				D21E838113CF9A8C00BDF164 /* content_cao.h */,
+				D21E838213CF9A8C00BDF164 /* content_object.h */,
+				D21E838313CF9A8C00BDF164 /* content_sao.cpp */,
+				D21E838413CF9A8C00BDF164 /* content_sao.h */,
 				D2C1418913C24401007009A1 /* guiKeyChangeMenu.cpp */,
 				D2C1418A13C24401007009A1 /* guiKeyChangeMenu.h */,
 				D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */,
@@ -887,9 +897,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2C1418B13C24401007009A1 /* guiKeyChangeMenu.cpp in Sources */,
-				D2C1418C13C2441F007009A1 /* guiKeyChangeMenu.h in Sources */,
+				D21E838513CF9A8C00BDF164 /* content_cao.cpp in Sources */,
+				D21E838613CF9A8C00BDF164 /* content_sao.cpp in Sources */,
 				D2C8D38F13B76C3C00AE9330 /* mapgen.cpp in Sources */,
-				D2C8D39013B76C5100AE9330 /* mapgen.h in Sources */,
 				D23CC8DA13A6B2A900C9522A /* clouds.cpp in Sources */,
 				D24C939713AC26CD0080BDF2 /* content_inventory.cpp in Sources */,
 				D23CC92913A6B2A900C9522A /* serverobject.cpp in Sources */,
@@ -1045,7 +1055,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				PRODUCT_NAME = Minetest;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -1069,7 +1079,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				PRODUCT_NAME = Minetest;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
