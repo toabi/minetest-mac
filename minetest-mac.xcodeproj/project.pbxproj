@@ -169,6 +169,7 @@
 		D2D2899513AC1529004BDB7B /* content_mapnode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2898F13AC1529004BDB7B /* content_mapnode.cpp */; };
 		D2D2899613AC1529004BDB7B /* content_nodemeta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2899113AC1529004BDB7B /* content_nodemeta.cpp */; };
 		D2D2899E13AC15FD004BDB7B /* mapblock_mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2899C13AC15FD004BDB7B /* mapblock_mesh.cpp */; };
+		D2FD4E0713D724E900AD3E45 /* minetest.icns in Resources */ = {isa = PBXBuildFile; fileRef = D2FD4E0613D724E900AD3E45 /* minetest.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -296,7 +297,7 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* minetest_mac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "minetest_mac-Info.plist"; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* Minetest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minetest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* Minetest Delta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minetest Delta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21E838013CF9A8C00BDF164 /* content_cao.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = content_cao.cpp; sourceTree = "<group>"; };
 		D21E838113CF9A8C00BDF164 /* content_cao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_cao.h; sourceTree = "<group>"; };
 		D21E838213CF9A8C00BDF164 /* content_object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_object.h; sourceTree = "<group>"; };
@@ -505,6 +506,7 @@
 		D2D2899213AC1529004BDB7B /* content_nodemeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_nodemeta.h; sourceTree = "<group>"; };
 		D2D2899C13AC15FD004BDB7B /* mapblock_mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapblock_mesh.cpp; sourceTree = "<group>"; };
 		D2D2899D13AC15FD004BDB7B /* mapblock_mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapblock_mesh.h; sourceTree = "<group>"; };
+		D2FD4E0613D724E900AD3E45 /* minetest.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = minetest.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -544,7 +546,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* Minetest.app */,
+				8D1107320486CEB800E47090 /* Minetest Delta.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -573,6 +575,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D2FD4E0613D724E900AD3E45 /* minetest.icns */,
 				8D1107310486CEB800E47090 /* minetest_mac-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -815,9 +818,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1107260486CEB800E47090 /* minetest-mac */ = {
+		8D1107260486CEB800E47090 /* Minetest Delta */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "minetest-mac" */;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Minetest Delta" */;
 			buildPhases = (
 				D23CCD0213A6BF8600C9522A /* Copy Textures */,
 				8D1107290486CEB800E47090 /* Resources */,
@@ -830,10 +833,10 @@
 			);
 			dependencies = (
 			);
-			name = "minetest-mac";
+			name = "Minetest Delta";
 			productInstallPath = "$(HOME)/Applications";
 			productName = "minetest-mac";
-			productReference = 8D1107320486CEB800E47090 /* Minetest.app */;
+			productReference = 8D1107320486CEB800E47090 /* Minetest Delta.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -855,7 +858,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* minetest-mac */,
+				8D1107260486CEB800E47090 /* Minetest Delta */,
 			);
 		};
 /* End PBXProject section */
@@ -886,6 +889,7 @@
 				D2C141B013C24435007009A1 /* rail.png in Resources */,
 				D2C141B113C24435007009A1 /* sandstone.png in Resources */,
 				D2C141B213C24435007009A1 /* treeprop.png in Resources */,
+				D2FD4E0713D724E900AD3E45 /* minetest.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -997,12 +1001,10 @@
 					../src/jthread,
 				);
 				INFOPLIST_FILE = "minetest_mac-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../src/jthread\"",
 				);
-				PRODUCT_NAME = Minetest;
 			};
 			name = Debug;
 		};
@@ -1010,27 +1012,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/lib\"",
-					"\"$(SDKROOT)/usr/local/lib\"",
-				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
-				HEADER_SEARCH_PATHS = (
-					"${inherited}",
-					lib/Irrlicht.framework/Headers/,
-					../src/jthread,
-				);
 				INFOPLIST_FILE = "minetest_mac-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../src/jthread\"",
 				);
-				PRODUCT_NAME = Minetest;
 			};
 			name = Release;
 		};
@@ -1054,7 +1043,7 @@
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				PRODUCT_NAME = Minetest;
+				PRODUCT_NAME = "Minetest Delta";
 				SDKROOT = macosx10.6;
 			};
 			name = Debug;
@@ -1063,13 +1052,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				FRAMEWORK_SEARCH_PATHS = ./lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					./lib,
+					"\"$(SRCROOT)/lib\"",
+					"\"$(SDKROOT)/usr/local/lib\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					./lib/Irrlicht.framework/Headers/,
+					lib/Irrlicht.framework/Headers/,
 					../src/jthread,
 				);
 				LIBRARY_SEARCH_PATHS = (
@@ -1078,7 +1071,7 @@
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				PRODUCT_NAME = Minetest;
+				PRODUCT_NAME = "Minetest Delta";
 				SDKROOT = macosx10.6;
 			};
 			name = Release;
@@ -1086,7 +1079,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "minetest-mac" */ = {
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Minetest Delta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4B08A954540054247B /* Debug */,
