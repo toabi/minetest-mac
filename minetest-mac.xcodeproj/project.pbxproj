@@ -825,9 +825,11 @@
 				D23CCD0213A6BF8600C9522A /* Copy Textures */,
 				8D1107290486CEB800E47090 /* Resources */,
 				D2D2862A13ABD31B004BDB7B /* Copy minetest.sh */,
+				D2D6322513D7482B00988FDA /* Update config.h */,
 				D23CCC0A13A6BEAE00C9522A /* Copy Irrlicht.framework */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				D2D6334313D74B9500988FDA /* Reset config.h */,
 			);
 			buildRules = (
 			);
@@ -894,6 +896,38 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D2D6322513D7482B00988FDA /* Update config.h */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			comments = "Changes the version string in the config.h\n\nThis would normaly be done by CMake. But we're obviously not using CMake right now.";
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update config.h";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ..\n# reset config.h to original state\n/usr/local/bin/git checkout src/config.h\nCOMMITHASH=$(/usr/local/bin/git describe --always)\nsed \"s/unknown/git-$COMMITHASH/\" src/config.h > src/config.h.mod\nmv src/config.h.mod src/config.h\n";
+		};
+		D2D6334313D74B9500988FDA /* Reset config.h */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Reset config.h";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ..\n/usr/local/bin/git checkout src/config.h";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D11072C0486CEB800E47090 /* Sources */ = {
