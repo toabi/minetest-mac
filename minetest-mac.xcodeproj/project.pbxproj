@@ -12,6 +12,12 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		D213FCE413D7664D00EAAA22 /* libintl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D213FCE313D7664D00EAAA22 /* libintl.a */; };
 		D213FD1B13D769AC00EAAA22 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D213FD1A13D769AC00EAAA22 /* libiconv.dylib */; };
+		D213FD3E13D776BC00EAAA22 /* firefly.png in Resources */ = {isa = PBXBuildFile; fileRef = D213FD3B13D776BC00EAAA22 /* firefly.png */; };
+		D213FD3F13D776BC00EAAA22 /* oerkki1_damaged.png in Resources */ = {isa = PBXBuildFile; fileRef = D213FD3C13D776BC00EAAA22 /* oerkki1_damaged.png */; };
+		D213FD4013D776BC00EAAA22 /* unknown_block.png in Resources */ = {isa = PBXBuildFile; fileRef = D213FD3D13D776BC00EAAA22 /* unknown_block.png */; };
+		D213FD4113D776CE00EAAA22 /* firefly.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D213FD3B13D776BC00EAAA22 /* firefly.png */; };
+		D213FD4213D776CE00EAAA22 /* oerkki1_damaged.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D213FD3C13D776BC00EAAA22 /* oerkki1_damaged.png */; };
+		D213FD4313D776CE00EAAA22 /* unknown_block.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D213FD3D13D776BC00EAAA22 /* unknown_block.png */; };
 		D21E838513CF9A8C00BDF164 /* content_cao.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D21E838013CF9A8C00BDF164 /* content_cao.cpp */; };
 		D21E838613CF9A8C00BDF164 /* content_sao.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D21E838313CF9A8C00BDF164 /* content_sao.cpp */; };
 		D23CC8D613A6B2A900C9522A /* auth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC83713A6B2A900C9522A /* auth.cpp */; };
@@ -207,6 +213,7 @@
 				D23CCD0713A6BF9300C9522A /* cobble.png in Copy Textures */,
 				D23CCD0813A6BF9300C9522A /* crack.png in Copy Textures */,
 				D2C141BA13C24448007009A1 /* fence.png in Copy Textures */,
+				D213FD4113D776CE00EAAA22 /* firefly.png in Copy Textures */,
 				D23CCD0913A6BF9300C9522A /* fontlucida.png in Copy Textures */,
 				D23CCD0A13A6BF9300C9522A /* furnace_front.png in Copy Textures */,
 				D23CCD0B13A6BF9300C9522A /* furnace_side.png in Copy Textures */,
@@ -228,6 +235,7 @@
 				D2C141BD13C24448007009A1 /* mossycobble.png in Copy Textures */,
 				D23CCD1913A6BF9300C9522A /* mud.png in Copy Textures */,
 				D23CCD1A13A6BF9300C9522A /* oerkki1.png in Copy Textures */,
+				D213FD4213D776CE00EAAA22 /* oerkki1_damaged.png in Copy Textures */,
 				D2C141BE13C24448007009A1 /* paper.png in Copy Textures */,
 				D2C141BF13C24448007009A1 /* papyrus.png in Copy Textures */,
 				D23CCD1B13A6BF9300C9522A /* player.png in Copy Textures */,
@@ -271,6 +279,7 @@
 				D23CCD3C13A6BF9300C9522A /* tree.png in Copy Textures */,
 				D23CCD3D13A6BF9300C9522A /* tree_top.png in Copy Textures */,
 				D2C141C513C24448007009A1 /* treeprop.png in Copy Textures */,
+				D213FD4313D776CE00EAAA22 /* unknown_block.png in Copy Textures */,
 				D23CCD3E13A6BF9300C9522A /* water.png in Copy Textures */,
 				D23CCD3F13A6BF9300C9522A /* wood.png in Copy Textures */,
 			);
@@ -302,6 +311,9 @@
 		8D1107320486CEB800E47090 /* Minetest Delta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minetest Delta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D213FCE313D7664D00EAAA22 /* libintl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libintl.a; path = lib/libintl.a; sourceTree = "<group>"; };
 		D213FD1A13D769AC00EAAA22 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		D213FD3B13D776BC00EAAA22 /* firefly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firefly.png; sourceTree = "<group>"; };
+		D213FD3C13D776BC00EAAA22 /* oerkki1_damaged.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oerkki1_damaged.png; sourceTree = "<group>"; };
+		D213FD3D13D776BC00EAAA22 /* unknown_block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unknown_block.png; sourceTree = "<group>"; };
 		D21E838013CF9A8C00BDF164 /* content_cao.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = content_cao.cpp; sourceTree = "<group>"; };
 		D21E838113CF9A8C00BDF164 /* content_cao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_cao.h; sourceTree = "<group>"; };
 		D21E838213CF9A8C00BDF164 /* content_object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_object.h; sourceTree = "<group>"; };
@@ -738,6 +750,9 @@
 		D23CCB8713A6BA3C00C9522A /* data */ = {
 			isa = PBXGroup;
 			children = (
+				D213FD3B13D776BC00EAAA22 /* firefly.png */,
+				D213FD3C13D776BC00EAAA22 /* oerkki1_damaged.png */,
+				D213FD3D13D776BC00EAAA22 /* unknown_block.png */,
 				D2C1418D13C24435007009A1 /* book.png */,
 				D2C1418E13C24435007009A1 /* bookshelf.png */,
 				D2C1418F13C24435007009A1 /* brick.png */,
@@ -900,6 +915,9 @@
 				D2C141B113C24435007009A1 /* sandstone.png in Resources */,
 				D2C141B213C24435007009A1 /* treeprop.png in Resources */,
 				D2FD4E0713D724E900AD3E45 /* minetest.icns in Resources */,
+				D213FD3E13D776BC00EAAA22 /* firefly.png in Resources */,
+				D213FD3F13D776BC00EAAA22 /* oerkki1_damaged.png in Resources */,
+				D213FD4013D776BC00EAAA22 /* unknown_block.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
