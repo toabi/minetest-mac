@@ -10,7 +10,8 @@
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		D213FCCC13D75B1600EAAA22 /* libintl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D213FCCB13D75B1600EAAA22 /* libintl.dylib */; };
+		D213FCE413D7664D00EAAA22 /* libintl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D213FCE313D7664D00EAAA22 /* libintl.a */; };
+		D213FD1B13D769AC00EAAA22 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D213FD1A13D769AC00EAAA22 /* libiconv.dylib */; };
 		D21E838513CF9A8C00BDF164 /* content_cao.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D21E838013CF9A8C00BDF164 /* content_cao.cpp */; };
 		D21E838613CF9A8C00BDF164 /* content_sao.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D21E838313CF9A8C00BDF164 /* content_sao.cpp */; };
 		D23CC8D613A6B2A900C9522A /* auth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC83713A6B2A900C9522A /* auth.cpp */; };
@@ -299,7 +300,8 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* minetest_mac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "minetest_mac-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Minetest Delta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minetest Delta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D213FCCB13D75B1600EAAA22 /* libintl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.dylib; path = usr/local/lib/libintl.dylib; sourceTree = SDKROOT; };
+		D213FCE313D7664D00EAAA22 /* libintl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libintl.a; path = lib/libintl.a; sourceTree = "<group>"; };
+		D213FD1A13D769AC00EAAA22 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		D21E838013CF9A8C00BDF164 /* content_cao.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = content_cao.cpp; sourceTree = "<group>"; };
 		D21E838113CF9A8C00BDF164 /* content_cao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_cao.h; sourceTree = "<group>"; };
 		D21E838213CF9A8C00BDF164 /* content_object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_object.h; sourceTree = "<group>"; };
@@ -521,7 +523,8 @@
 				D23CC93513A6B2FE00C9522A /* OpenGL.framework in Frameworks */,
 				D23CC93713A6B30800C9522A /* IOKit.framework in Frameworks */,
 				D23CC93913A6B32C00C9522A /* libjthread.a in Frameworks */,
-				D213FCCC13D75B1600EAAA22 /* libintl.dylib in Frameworks */,
+				D213FCE413D7664D00EAAA22 /* libintl.a in Frameworks */,
+				D213FD1B13D769AC00EAAA22 /* libiconv.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +598,8 @@
 				D23CC93413A6B2FE00C9522A /* OpenGL.framework */,
 				D23CC93613A6B30800C9522A /* IOKit.framework */,
 				D23CC93813A6B32C00C9522A /* libjthread.a */,
-				D213FCCB13D75B1600EAAA22 /* libintl.dylib */,
+				D213FCE313D7664D00EAAA22 /* libintl.a */,
+				D213FD1A13D769AC00EAAA22 /* libiconv.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1055,6 +1059,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "minetest_mac-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib\"",
+				);
 			};
 			name = Release;
 		};
@@ -1106,6 +1114,10 @@
 					/usr/local/lib,
 				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					lib/libintl.a,
+				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "Minetest Delta";
 				SDKROOT = macosx10.6;
