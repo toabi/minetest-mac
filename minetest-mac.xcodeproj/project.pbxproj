@@ -1043,51 +1043,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/lib\"",
-					"\"$(SDKROOT)/usr/local/lib\"",
-				);
-				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
-				HEADER_SEARCH_PATHS = (
-					lib/Irrlicht.framework/Headers/,
-					../src/jthread,
-					include,
-				);
-				INFOPLIST_FILE = "minetest_mac-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../src/jthread\"",
-					"\"$(SRCROOT)/lib\"",
-				);
 			};
 			name = Debug;
 		};
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/lib\"",
-					"\"$(SDKROOT)/usr/local/lib\"",
-				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
-				HEADER_SEARCH_PATHS = (
-					lib/Irrlicht.framework/Headers/,
-					../src/jthread,
-					include,
-				);
-				INFOPLIST_FILE = "minetest_mac-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../src/jthread\"",
-					"\"$(SRCROOT)/lib\"",
-				);
 			};
 			name = Release;
 		};
@@ -1096,9 +1065,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
-					FRAMEWORK_SEARCH_PATHS,
-					"=",
-					"\"$(SRCROOT)/lib\"",
+					"\"$(SRCROOT)/lib\"/**",
 					"\"$(SDKROOT)/usr/local/lib\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1107,17 +1074,20 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					./lib/Irrlicht.framework/Headers/,
+					lib/Irrlicht.framework/Headers/,
 					../src/jthread,
+					include,
 				);
+				INFOPLIST_FILE = minetest_mac.plist;
 				LIBRARY_SEARCH_PATHS = (
-					./lib,
+					"\"$(SRCROOT)/lib\"/**",
 					/usr/local/lib,
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				PRODUCT_NAME = "Minetest Delta";
 				SDKROOT = macosx10.6;
+				VALID_ARCHS = i386;
 			};
 			name = Debug;
 		};
@@ -1126,9 +1096,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
-					FRAMEWORK_SEARCH_PATHS,
-					"=",
-					"\"$(SRCROOT)/lib\"",
+					"\"$(SRCROOT)/lib\"/**",
 					"\"$(SDKROOT)/usr/local/lib\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1140,8 +1108,9 @@
 					../src/jthread,
 					include,
 				);
+				INFOPLIST_FILE = minetest_mac.plist;
 				LIBRARY_SEARCH_PATHS = (
-					./lib,
+					"\"$(SRCROOT)/lib\"/**",
 					/usr/local/lib,
 				);
 				ONLY_ACTIVE_ARCH = YES;
@@ -1152,6 +1121,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = "Minetest Delta";
 				SDKROOT = macosx10.6;
+				VALID_ARCHS = i386;
 			};
 			name = Release;
 		};
