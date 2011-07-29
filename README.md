@@ -5,8 +5,8 @@ a fork of [minetest-c55](https://bitbucket.org/celeron55/minetest).
 
 ## Requirements
 
-This was tested on OS X 10.6 with Xcode 3. It includes all needed 3rd party libraries.
-It builds a 32bit 10.5 compatible application bundle.
+This was tested on OS X 10.7 with Xcode 4. It includes all needed 3rd party libraries.
+It builds a 32bit 10.6 compatible application bundle.
 
 ## How to build minetest
 
