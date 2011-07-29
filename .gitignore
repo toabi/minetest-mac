@@ -1,4 +1,6 @@
 .DS_Store
 *.pbxuser
 *.mode1v3
+minetest-mac.xcodeproj/xcuserdata/*
+minetest-mac.xcodeproj/project.xcworkspace/xcuserdata/*
 build/
