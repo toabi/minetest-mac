@@ -13,10 +13,9 @@ It builds a 32bit 10.6 compatible application bundle.
 
 ### Getting the code
 
-	$ mkdir ~/code && cd ~/code
-	$ git clone https://github.com/erlehmann/minetest-delta.git
-	$ cd minetest-delta
-	$ git submodule add --branch delta https://github.com/toabi/minetest-mac.git
+	$ hg clone https://bitbucket.org/celeron55/minetest
+	$ cd minetest
+	$ git clone https://github.com/toabi/minetest-mac.git
 	$ cd minetest-mac
 
 There are now two easy ways to get your app. The final product always ends up in ./build/(Release|Debug)/.
