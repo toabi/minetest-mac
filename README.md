@@ -2,7 +2,7 @@
 
 This Xcode project can be used to build [minetest-c55](https://bitbucket.org/celeron55/minetest).
 
-Use the branch `delta` if you want to build [minetest-delta](https://github.com/erlehmann/minetest-delta).
+Use the branch `delta` if you want to build [minetest-delta](https://github.com/erlehmann/minetest-delta). But that branch is pretty old.
 
 ## Requirements
 
@@ -13,7 +13,7 @@ It builds a 32bit 10.6 compatible application bundle.
 
 ### Getting the code
 
-	$ hg clone https://bitbucket.org/celeron55/minetest
+	$ git clone https://github.com/celeron55/minetest.git
 	$ cd minetest
 	$ git clone https://github.com/toabi/minetest-mac.git
 	$ cd minetest-mac
@@ -29,6 +29,14 @@ There are now two easy ways to get your app. The final product always ends up in
 * Doubleclick the .xcodeproj
 * Hit "Build & Run"
 * If everything is OK, the application should launch.
+
+### Targets and Schemes
+
+When developing, use the **Debug** scheme. It just builds the application bundle and doesn't do other magic.
+Therefore only changed files are recompiled.
+
+When releasing an application bundle then use the **Release** scheme. It will automatically update the *VERSION_STRING*
+with the output of `git describe` and also write the version into the `Info.plist` so the Finder can display it.
 
 ## So you don't like to build?
 
