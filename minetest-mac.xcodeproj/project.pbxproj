@@ -37,6 +37,7 @@
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D21096C3142BD57E0091EBB8 /* libsqlite3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D21096C2142BD57E0091EBB8 /* libsqlite3.a */; };
 		D213FCE413D7664D00EAAA22 /* libintl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D213FCE313D7664D00EAAA22 /* libintl.a */; };
 		D213FD1B13D769AC00EAAA22 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D213FD1A13D769AC00EAAA22 /* libiconv.dylib */; };
 		D213FD4113D776CE00EAAA22 /* firefly.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D213FD3B13D776BC00EAAA22 /* firefly.png */; };
@@ -106,7 +107,6 @@
 		D23CCD0E13A6BF9300C9522A /* grass_footsteps.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9313A6BA3C00C9522A /* grass_footsteps.png */; };
 		D23CCD0F13A6BF9300C9522A /* grass_side.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9413A6BA3C00C9522A /* grass_side.png */; };
 		D23CCD1013A6BF9300C9522A /* heart.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9513A6BA3C00C9522A /* heart.png */; };
-		D23CCD1113A6BF9300C9522A /* item_fence.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9613A6BA3C00C9522A /* item_fence.png */; };
 		D23CCD1213A6BF9300C9522A /* leaves.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9713A6BA3C00C9522A /* leaves.png */; };
 		D23CCD1313A6BF9300C9522A /* lump_of_coal.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9813A6BA3C00C9522A /* lump_of_coal.png */; };
 		D23CCD1413A6BF9300C9522A /* lump_of_iron.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9913A6BA3C00C9522A /* lump_of_iron.png */; };
@@ -191,6 +191,8 @@
 		D27531E513C4A21F004B1554 /* content_sao.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27531E213C4A21F004B1554 /* content_sao.cpp */; };
 		D27BCD0C140FBB0C0079B1F7 /* ban.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27BCD0A140FBB0C0079B1F7 /* ban.cpp */; };
 		D27BCD10140FBB540079B1F7 /* lava.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D27BCD0E140FBB460079B1F7 /* lava.png */; };
+		D2B04D45142BD99A00A55FCE /* apple_iron.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D21096BB142BD39A0091EBB8 /* apple_iron.png */; };
+		D2B04D46142BD99B00A55FCE /* apple.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D21096BC142BD39A0091EBB8 /* apple.png */; };
 		D2C8D38F13B76C3C00AE9330 /* mapgen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */; };
 		D2D2862313ABD310004BDB7B /* minetest-mac.sh in Copy minetest.sh */ = {isa = PBXBuildFile; fileRef = D2D2861C13ABD2CD004BDB7B /* minetest-mac.sh */; };
 		D2D2899313AC1529004BDB7B /* content_craft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2898B13AC1529004BDB7B /* content_craft.cpp */; };
@@ -236,6 +238,8 @@
 			dstPath = data;
 			dstSubfolderSpec = 7;
 			files = (
+				D2B04D45142BD99A00A55FCE /* apple_iron.png in Copy Textures (96 items) */,
+				D2B04D46142BD99B00A55FCE /* apple.png in Copy Textures (96 items) */,
 				D27BCD10140FBB540079B1F7 /* lava.png in Copy Textures (96 items) */,
 				D252663713EDE14400F2E3AE /* cooked_rat.png in Copy Textures (96 items) */,
 				D252663813EDE14400F2E3AE /* ladder.png in Copy Textures (96 items) */,
@@ -284,7 +288,6 @@
 				D23CCD0E13A6BF9300C9522A /* grass_footsteps.png in Copy Textures (96 items) */,
 				D23CCD0F13A6BF9300C9522A /* grass_side.png in Copy Textures (96 items) */,
 				D23CCD1013A6BF9300C9522A /* heart.png in Copy Textures (96 items) */,
-				D23CCD1113A6BF9300C9522A /* item_fence.png in Copy Textures (96 items) */,
 				D23CCD1213A6BF9300C9522A /* leaves.png in Copy Textures (96 items) */,
 				D23CCD1313A6BF9300C9522A /* lump_of_coal.png in Copy Textures (96 items) */,
 				D23CCD1413A6BF9300C9522A /* lump_of_iron.png in Copy Textures (96 items) */,
@@ -358,6 +361,9 @@
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		D21096BB142BD39A0091EBB8 /* apple_iron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple_iron.png; sourceTree = "<group>"; };
+		D21096BC142BD39A0091EBB8 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		D21096C2142BD57E0091EBB8 /* libsqlite3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsqlite3.a; path = lib/libsqlite3.a; sourceTree = "<group>"; };
 		D213FCE313D7664D00EAAA22 /* libintl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libintl.a; path = lib/libintl.a; sourceTree = "<group>"; };
 		D213FD1A13D769AC00EAAA22 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		D213FD3B13D776BC00EAAA22 /* firefly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firefly.png; sourceTree = "<group>"; };
@@ -483,7 +489,6 @@
 		D23CCB9313A6BA3C00C9522A /* grass_footsteps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass_footsteps.png; sourceTree = "<group>"; };
 		D23CCB9413A6BA3C00C9522A /* grass_side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass_side.png; sourceTree = "<group>"; };
 		D23CCB9513A6BA3C00C9522A /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
-		D23CCB9613A6BA3C00C9522A /* item_fence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_fence.png; sourceTree = "<group>"; };
 		D23CCB9713A6BA3C00C9522A /* leaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaves.png; sourceTree = "<group>"; };
 		D23CCB9813A6BA3C00C9522A /* lump_of_coal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lump_of_coal.png; sourceTree = "<group>"; };
 		D23CCB9913A6BA3C00C9522A /* lump_of_iron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lump_of_iron.png; sourceTree = "<group>"; };
@@ -598,6 +603,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D21096C3142BD57E0091EBB8 /* libsqlite3.a in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				D23CC93113A6B2F500C9522A /* Irrlicht.framework in Frameworks */,
 				D23CC93513A6B2FE00C9522A /* OpenGL.framework in Frameworks */,
@@ -671,6 +677,7 @@
 				D23CC93413A6B2FE00C9522A /* OpenGL.framework */,
 				D23CC93613A6B30800C9522A /* IOKit.framework */,
 				D23CC93813A6B32C00C9522A /* libjthread.a */,
+				D21096C2142BD57E0091EBB8 /* libsqlite3.a */,
 				D213FCE313D7664D00EAAA22 /* libintl.a */,
 				D213FD1A13D769AC00EAAA22 /* libiconv.dylib */,
 			);
@@ -813,6 +820,8 @@
 		D23CCB8713A6BA3C00C9522A /* data */ = {
 			isa = PBXGroup;
 			children = (
+				D21096BB142BD39A0091EBB8 /* apple_iron.png */,
+				D21096BC142BD39A0091EBB8 /* apple.png */,
 				D27BCD0E140FBB460079B1F7 /* lava.png */,
 				D252662313EDE12700F2E3AE /* cooked_rat.png */,
 				D252662413EDE12700F2E3AE /* ladder.png */,
@@ -863,7 +872,6 @@
 				D23CCB9313A6BA3C00C9522A /* grass_footsteps.png */,
 				D23CCB9413A6BA3C00C9522A /* grass_side.png */,
 				D23CCB9513A6BA3C00C9522A /* heart.png */,
-				D23CCB9613A6BA3C00C9522A /* item_fence.png */,
 				D23CCB9713A6BA3C00C9522A /* leaves.png */,
 				D23CCB9813A6BA3C00C9522A /* lump_of_coal.png */,
 				D23CCB9913A6BA3C00C9522A /* lump_of_iron.png */,
@@ -1124,6 +1132,10 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib\"",
+				);
 			};
 			name = Debug;
 		};
@@ -1132,6 +1144,10 @@
 			buildSettings = {
 				GCC_MODEL_TUNING = G5;
 				GCC_PREFIX_HEADER = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/lib\"",
+				);
 			};
 			name = Release;
 		};
