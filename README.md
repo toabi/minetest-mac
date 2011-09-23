@@ -1,6 +1,6 @@
 # Xcode project to build minetest
 
-This Xcode project can be used to build [minetest-c55](https://bitbucket.org/celeron55/minetest).
+This Xcode project can be used to build [minetest-c55](https://github.com/celeron55/minetest).
 
 Use the branch `delta` if you want to build [minetest-delta](https://github.com/erlehmann/minetest-delta). But that branch is pretty old.
 
