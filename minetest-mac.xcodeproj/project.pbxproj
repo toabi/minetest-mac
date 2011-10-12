@@ -193,6 +193,9 @@
 		D27BCD10140FBB540079B1F7 /* lava.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D27BCD0E140FBB460079B1F7 /* lava.png */; };
 		D2B04D45142BD99A00A55FCE /* apple_iron.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D21096BB142BD39A0091EBB8 /* apple_iron.png */; };
 		D2B04D46142BD99B00A55FCE /* apple.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D21096BC142BD39A0091EBB8 /* apple.png */; };
+		D2C4CE2A1445B46E002F7EF4 /* chest_lock.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D2C4CE251445B451002F7EF4 /* chest_lock.png */; };
+		D2C4CE2B1445B46E002F7EF4 /* sapling.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D2C4CE261445B451002F7EF4 /* sapling.png */; };
+		D2C4CE321445B4DB002F7EF4 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C4CE2C1445B4DB002F7EF4 /* camera.cpp */; };
 		D2C8D38F13B76C3C00AE9330 /* mapgen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */; };
 		D2D2862313ABD310004BDB7B /* minetest-mac.sh in Copy minetest.sh */ = {isa = PBXBuildFile; fileRef = D2D2861C13ABD2CD004BDB7B /* minetest-mac.sh */; };
 		D2D2899313AC1529004BDB7B /* content_craft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2898B13AC1529004BDB7B /* content_craft.cpp */; };
@@ -238,6 +241,8 @@
 			dstPath = data;
 			dstSubfolderSpec = 7;
 			files = (
+				D2C4CE2A1445B46E002F7EF4 /* chest_lock.png in Copy Textures (96 items) */,
+				D2C4CE2B1445B46E002F7EF4 /* sapling.png in Copy Textures (96 items) */,
 				D2B04D45142BD99A00A55FCE /* apple_iron.png in Copy Textures (96 items) */,
 				D2B04D46142BD99B00A55FCE /* apple.png in Copy Textures (96 items) */,
 				D27BCD10140FBB540079B1F7 /* lava.png in Copy Textures (96 items) */,
@@ -582,6 +587,14 @@
 		D27BCD0B140FBB0C0079B1F7 /* ban.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ban.h; sourceTree = "<group>"; };
 		D27BCD0E140FBB460079B1F7 /* lava.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lava.png; sourceTree = "<group>"; };
 		D27BCD1A140FBE450079B1F7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		D2C4CE251445B451002F7EF4 /* chest_lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chest_lock.png; sourceTree = "<group>"; };
+		D2C4CE261445B451002F7EF4 /* sapling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sapling.png; sourceTree = "<group>"; };
+		D2C4CE2C1445B4DB002F7EF4 /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camera.cpp; sourceTree = "<group>"; };
+		D2C4CE2D1445B4DB002F7EF4 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		D2C4CE2E1445B4DB002F7EF4 /* defaultsettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defaultsettings.h; sourceTree = "<group>"; };
+		D2C4CE2F1445B4DB002F7EF4 /* gettext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gettext.h; sourceTree = "<group>"; };
+		D2C4CE301445B4DB002F7EF4 /* mainmenumanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainmenumanager.h; sourceTree = "<group>"; };
+		D2C4CE311445B4DB002F7EF4 /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
 		D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapgen.cpp; sourceTree = "<group>"; };
 		D2C8D38E13B76C3C00AE9330 /* mapgen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapgen.h; sourceTree = "<group>"; };
 		D2D2861C13ABD2CD004BDB7B /* minetest-mac.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "minetest-mac.sh"; sourceTree = "<group>"; };
@@ -687,6 +700,12 @@
 		D23CC83513A6B2A900C9522A /* src */ = {
 			isa = PBXGroup;
 			children = (
+				D2C4CE2C1445B4DB002F7EF4 /* camera.cpp */,
+				D2C4CE2D1445B4DB002F7EF4 /* camera.h */,
+				D2C4CE2E1445B4DB002F7EF4 /* defaultsettings.h */,
+				D2C4CE2F1445B4DB002F7EF4 /* gettext.h */,
+				D2C4CE301445B4DB002F7EF4 /* mainmenumanager.h */,
+				D2C4CE311445B4DB002F7EF4 /* settings.h */,
 				D27BCD0A140FBB0C0079B1F7 /* ban.cpp */,
 				D27BCD0B140FBB0C0079B1F7 /* ban.h */,
 				D257AFBE13E3626400CBB8B1 /* guiKeyChangeMenu.cpp */,
@@ -820,6 +839,8 @@
 		D23CCB8713A6BA3C00C9522A /* data */ = {
 			isa = PBXGroup;
 			children = (
+				D2C4CE251445B451002F7EF4 /* chest_lock.png */,
+				D2C4CE261445B451002F7EF4 /* sapling.png */,
 				D21096BB142BD39A0091EBB8 /* apple_iron.png */,
 				D21096BC142BD39A0091EBB8 /* apple.png */,
 				D27BCD0E140FBB460079B1F7 /* lava.png */,
@@ -1087,6 +1108,7 @@
 				D23CC92F13A6B2A900C9522A /* voxel.cpp in Sources */,
 				D257AFC013E3626400CBB8B1 /* guiKeyChangeMenu.cpp in Sources */,
 				D27BCD0C140FBB0C0079B1F7 /* ban.cpp in Sources */,
+				D2C4CE321445B4DB002F7EF4 /* camera.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
