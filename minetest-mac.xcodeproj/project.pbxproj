@@ -40,9 +40,9 @@
 		D21096C3142BD57E0091EBB8 /* libsqlite3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D21096C2142BD57E0091EBB8 /* libsqlite3.a */; };
 		D213FCE413D7664D00EAAA22 /* libintl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D213FCE313D7664D00EAAA22 /* libintl.a */; };
 		D213FD1B13D769AC00EAAA22 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D213FD1A13D769AC00EAAA22 /* libiconv.dylib */; };
-		D213FD4113D776CE00EAAA22 /* firefly.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D213FD3B13D776BC00EAAA22 /* firefly.png */; };
-		D213FD4213D776CE00EAAA22 /* oerkki1_damaged.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D213FD3C13D776BC00EAAA22 /* oerkki1_damaged.png */; };
-		D213FD4313D776CE00EAAA22 /* unknown_block.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D213FD3D13D776BC00EAAA22 /* unknown_block.png */; };
+		D213FD4113D776CE00EAAA22 /* firefly.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D213FD3B13D776BC00EAAA22 /* firefly.png */; };
+		D213FD4213D776CE00EAAA22 /* oerkki1_damaged.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D213FD3C13D776BC00EAAA22 /* oerkki1_damaged.png */; };
+		D213FD4313D776CE00EAAA22 /* unknown_block.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D213FD3D13D776BC00EAAA22 /* unknown_block.png */; };
 		D229ECB213D8B09400A73395 /* minetest.icns in Resources */ = {isa = PBXBuildFile; fileRef = D2FD4E0613D724E900AD3E45 /* minetest.icns */; };
 		D23CC8D613A6B2A900C9522A /* auth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC83713A6B2A900C9522A /* auth.cpp */; };
 		D23CC8D713A6B2A900C9522A /* base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC83913A6B2A900C9522A /* base64.cpp */; };
@@ -69,7 +69,6 @@
 		D23CC91813A6B2A900C9522A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC8A213A6B2A900C9522A /* main.cpp */; };
 		D23CC91A13A6B2A900C9522A /* map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC8A513A6B2A900C9522A /* map.cpp */; };
 		D23CC91B13A6B2A900C9522A /* mapblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC8A713A6B2A900C9522A /* mapblock.cpp */; };
-		D23CC91C13A6B2A900C9522A /* mapblockobject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC8A913A6B2A900C9522A /* mapblockobject.cpp */; };
 		D23CC91D13A6B2A900C9522A /* mapnode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC8AC13A6B2A900C9522A /* mapnode.cpp */; };
 		D23CC91E13A6B2A900C9522A /* mapsector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC8AE13A6B2A900C9522A /* mapsector.cpp */; };
 		D23CC91F13A6B2A900C9522A /* materials.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC8B013A6B2A900C9522A /* materials.cpp */; };
@@ -93,108 +92,108 @@
 		D23CC93713A6B30800C9522A /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23CC93613A6B30800C9522A /* IOKit.framework */; };
 		D23CC93913A6B32C00C9522A /* libjthread.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D23CC93813A6B32C00C9522A /* libjthread.a */; };
 		D23CCCF813A6BF2800C9522A /* Irrlicht.framework in Copy Irrlicht.framework */ = {isa = PBXBuildFile; fileRef = D23CC93013A6B2F500C9522A /* Irrlicht.framework */; };
-		D23CCD0313A6BF9300C9522A /* chest_front.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB8813A6BA3C00C9522A /* chest_front.png */; };
-		D23CCD0413A6BF9300C9522A /* chest_side.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB8913A6BA3C00C9522A /* chest_side.png */; };
-		D23CCD0513A6BF9300C9522A /* chest_top.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB8A13A6BA3C00C9522A /* chest_top.png */; };
-		D23CCD0613A6BF9300C9522A /* cloud.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB8B13A6BA3C00C9522A /* cloud.png */; };
-		D23CCD0713A6BF9300C9522A /* cobble.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB8C13A6BA3C00C9522A /* cobble.png */; };
-		D23CCD0813A6BF9300C9522A /* crack.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB8D13A6BA3C00C9522A /* crack.png */; };
-		D23CCD0913A6BF9300C9522A /* fontlucida.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB8E13A6BA3C00C9522A /* fontlucida.png */; };
-		D23CCD0A13A6BF9300C9522A /* furnace_front.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB8F13A6BA3C00C9522A /* furnace_front.png */; };
-		D23CCD0B13A6BF9300C9522A /* furnace_side.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9013A6BA3C00C9522A /* furnace_side.png */; };
-		D23CCD0C13A6BF9300C9522A /* glass.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9113A6BA3C00C9522A /* glass.png */; };
-		D23CCD0D13A6BF9300C9522A /* grass.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9213A6BA3C00C9522A /* grass.png */; };
-		D23CCD0E13A6BF9300C9522A /* grass_footsteps.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9313A6BA3C00C9522A /* grass_footsteps.png */; };
-		D23CCD0F13A6BF9300C9522A /* grass_side.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9413A6BA3C00C9522A /* grass_side.png */; };
-		D23CCD1013A6BF9300C9522A /* heart.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9513A6BA3C00C9522A /* heart.png */; };
-		D23CCD1213A6BF9300C9522A /* leaves.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9713A6BA3C00C9522A /* leaves.png */; };
-		D23CCD1313A6BF9300C9522A /* lump_of_coal.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9813A6BA3C00C9522A /* lump_of_coal.png */; };
-		D23CCD1413A6BF9300C9522A /* lump_of_iron.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9913A6BA3C00C9522A /* lump_of_iron.png */; };
-		D23CCD1513A6BF9300C9522A /* menulogo.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9A13A6BA3C00C9522A /* menulogo.png */; };
-		D23CCD1613A6BF9300C9522A /* mese.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9B13A6BA3C00C9522A /* mese.png */; };
-		D23CCD1713A6BF9300C9522A /* mineral_coal.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9C13A6BA3C00C9522A /* mineral_coal.png */; };
-		D23CCD1813A6BF9300C9522A /* mineral_iron.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9D13A6BA3C00C9522A /* mineral_iron.png */; };
-		D23CCD1913A6BF9300C9522A /* mud.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9E13A6BA3C00C9522A /* mud.png */; };
-		D23CCD1A13A6BF9300C9522A /* oerkki1.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCB9F13A6BA3C00C9522A /* oerkki1.png */; };
-		D23CCD1B13A6BF9300C9522A /* player.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBA013A6BA3C00C9522A /* player.png */; };
-		D23CCD1C13A6BF9300C9522A /* player_back.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBA113A6BA3C00C9522A /* player_back.png */; };
-		D23CCD1D13A6BF9300C9522A /* rat.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBA213A6BA3C00C9522A /* rat.png */; };
-		D23CCD1E13A6BF9300C9522A /* sand.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBA313A6BA3C00C9522A /* sand.png */; };
-		D23CCD1F13A6BF9300C9522A /* sign.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBA413A6BA3C00C9522A /* sign.png */; };
-		D23CCD2013A6BF9300C9522A /* sign_back.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBA513A6BA3C00C9522A /* sign_back.png */; };
-		D23CCD2113A6BF9300C9522A /* sign_wall.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBA613A6BA3C00C9522A /* sign_wall.png */; };
-		D23CCD2213A6BF9300C9522A /* skybox1.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBA713A6BA3C00C9522A /* skybox1.png */; };
-		D23CCD2313A6BF9300C9522A /* skybox1_dawn.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBA813A6BA3C00C9522A /* skybox1_dawn.png */; };
-		D23CCD2413A6BF9300C9522A /* skybox1_night.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBA913A6BA3C00C9522A /* skybox1_night.png */; };
-		D23CCD2513A6BF9300C9522A /* skybox2.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBAA13A6BA3C00C9522A /* skybox2.png */; };
-		D23CCD2613A6BF9300C9522A /* skybox2_dawn.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBAB13A6BA3C00C9522A /* skybox2_dawn.png */; };
-		D23CCD2713A6BF9300C9522A /* skybox2_night.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBAC13A6BA3C00C9522A /* skybox2_night.png */; };
-		D23CCD2813A6BF9300C9522A /* skybox3.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBAD13A6BA3C00C9522A /* skybox3.png */; };
-		D23CCD2913A6BF9300C9522A /* skybox3_dawn.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBAE13A6BA3C00C9522A /* skybox3_dawn.png */; };
-		D23CCD2A13A6BF9300C9522A /* skybox3_night.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBAF13A6BA3C00C9522A /* skybox3_night.png */; };
-		D23CCD2B13A6BF9300C9522A /* steel_block.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBB013A6BA3C00C9522A /* steel_block.png */; };
-		D23CCD2C13A6BF9300C9522A /* steel_ingot.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBB113A6BA3C00C9522A /* steel_ingot.png */; };
-		D23CCD2D13A6BF9300C9522A /* stick.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBB213A6BA3C00C9522A /* stick.png */; };
-		D23CCD2E13A6BF9300C9522A /* stone.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBB313A6BA3C00C9522A /* stone.png */; };
-		D23CCD2F13A6BF9300C9522A /* tool_mesepick.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBB413A6BA3C00C9522A /* tool_mesepick.png */; };
-		D23CCD3013A6BF9300C9522A /* tool_steelaxe.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBB513A6BA3C00C9522A /* tool_steelaxe.png */; };
-		D23CCD3113A6BF9300C9522A /* tool_steelpick.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBB613A6BA3C00C9522A /* tool_steelpick.png */; };
-		D23CCD3213A6BF9300C9522A /* tool_steelshovel.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBB713A6BA3C00C9522A /* tool_steelshovel.png */; };
-		D23CCD3313A6BF9300C9522A /* tool_stoneaxe.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBB813A6BA3C00C9522A /* tool_stoneaxe.png */; };
-		D23CCD3413A6BF9300C9522A /* tool_stonepick.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBB913A6BA3C00C9522A /* tool_stonepick.png */; };
-		D23CCD3513A6BF9300C9522A /* tool_stoneshovel.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBBA13A6BA3C00C9522A /* tool_stoneshovel.png */; };
-		D23CCD3613A6BF9300C9522A /* tool_woodaxe.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBBB13A6BA3C00C9522A /* tool_woodaxe.png */; };
-		D23CCD3713A6BF9300C9522A /* tool_woodpick.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBBC13A6BA3C00C9522A /* tool_woodpick.png */; };
-		D23CCD3813A6BF9300C9522A /* tool_woodshovel.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBBD13A6BA3C00C9522A /* tool_woodshovel.png */; };
-		D23CCD3913A6BF9300C9522A /* torch.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBBE13A6BA3C00C9522A /* torch.png */; };
-		D23CCD3A13A6BF9300C9522A /* torch_on_ceiling.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBBF13A6BA3C00C9522A /* torch_on_ceiling.png */; };
-		D23CCD3B13A6BF9300C9522A /* torch_on_floor.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBC013A6BA3C00C9522A /* torch_on_floor.png */; };
-		D23CCD3C13A6BF9300C9522A /* tree.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBC113A6BA3C00C9522A /* tree.png */; };
-		D23CCD3D13A6BF9300C9522A /* tree_top.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBC213A6BA3C00C9522A /* tree_top.png */; };
-		D23CCD3E13A6BF9300C9522A /* water.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBC313A6BA3C00C9522A /* water.png */; };
-		D23CCD3F13A6BF9300C9522A /* wood.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D23CCBC413A6BA3C00C9522A /* wood.png */; };
+		D23CCD0313A6BF9300C9522A /* chest_front.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB8813A6BA3C00C9522A /* chest_front.png */; };
+		D23CCD0413A6BF9300C9522A /* chest_side.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB8913A6BA3C00C9522A /* chest_side.png */; };
+		D23CCD0513A6BF9300C9522A /* chest_top.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB8A13A6BA3C00C9522A /* chest_top.png */; };
+		D23CCD0613A6BF9300C9522A /* cloud.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB8B13A6BA3C00C9522A /* cloud.png */; };
+		D23CCD0713A6BF9300C9522A /* cobble.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB8C13A6BA3C00C9522A /* cobble.png */; };
+		D23CCD0813A6BF9300C9522A /* crack.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB8D13A6BA3C00C9522A /* crack.png */; };
+		D23CCD0913A6BF9300C9522A /* fontlucida.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB8E13A6BA3C00C9522A /* fontlucida.png */; };
+		D23CCD0A13A6BF9300C9522A /* furnace_front.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB8F13A6BA3C00C9522A /* furnace_front.png */; };
+		D23CCD0B13A6BF9300C9522A /* furnace_side.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB9013A6BA3C00C9522A /* furnace_side.png */; };
+		D23CCD0C13A6BF9300C9522A /* glass.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB9113A6BA3C00C9522A /* glass.png */; };
+		D23CCD0D13A6BF9300C9522A /* grass.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB9213A6BA3C00C9522A /* grass.png */; };
+		D23CCD0E13A6BF9300C9522A /* grass_footsteps.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB9313A6BA3C00C9522A /* grass_footsteps.png */; };
+		D23CCD0F13A6BF9300C9522A /* grass_side.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB9413A6BA3C00C9522A /* grass_side.png */; };
+		D23CCD1013A6BF9300C9522A /* heart.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB9513A6BA3C00C9522A /* heart.png */; };
+		D23CCD1213A6BF9300C9522A /* leaves.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB9713A6BA3C00C9522A /* leaves.png */; };
+		D23CCD1313A6BF9300C9522A /* lump_of_coal.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB9813A6BA3C00C9522A /* lump_of_coal.png */; };
+		D23CCD1413A6BF9300C9522A /* lump_of_iron.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB9913A6BA3C00C9522A /* lump_of_iron.png */; };
+		D23CCD1513A6BF9300C9522A /* menulogo.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB9A13A6BA3C00C9522A /* menulogo.png */; };
+		D23CCD1613A6BF9300C9522A /* mese.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB9B13A6BA3C00C9522A /* mese.png */; };
+		D23CCD1713A6BF9300C9522A /* mineral_coal.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB9C13A6BA3C00C9522A /* mineral_coal.png */; };
+		D23CCD1813A6BF9300C9522A /* mineral_iron.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB9D13A6BA3C00C9522A /* mineral_iron.png */; };
+		D23CCD1913A6BF9300C9522A /* mud.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB9E13A6BA3C00C9522A /* mud.png */; };
+		D23CCD1A13A6BF9300C9522A /* oerkki1.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCB9F13A6BA3C00C9522A /* oerkki1.png */; };
+		D23CCD1B13A6BF9300C9522A /* player.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBA013A6BA3C00C9522A /* player.png */; };
+		D23CCD1C13A6BF9300C9522A /* player_back.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBA113A6BA3C00C9522A /* player_back.png */; };
+		D23CCD1D13A6BF9300C9522A /* rat.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBA213A6BA3C00C9522A /* rat.png */; };
+		D23CCD1E13A6BF9300C9522A /* sand.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBA313A6BA3C00C9522A /* sand.png */; };
+		D23CCD1F13A6BF9300C9522A /* sign.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBA413A6BA3C00C9522A /* sign.png */; };
+		D23CCD2013A6BF9300C9522A /* sign_back.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBA513A6BA3C00C9522A /* sign_back.png */; };
+		D23CCD2113A6BF9300C9522A /* sign_wall.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBA613A6BA3C00C9522A /* sign_wall.png */; };
+		D23CCD2213A6BF9300C9522A /* skybox1.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBA713A6BA3C00C9522A /* skybox1.png */; };
+		D23CCD2313A6BF9300C9522A /* skybox1_dawn.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBA813A6BA3C00C9522A /* skybox1_dawn.png */; };
+		D23CCD2413A6BF9300C9522A /* skybox1_night.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBA913A6BA3C00C9522A /* skybox1_night.png */; };
+		D23CCD2513A6BF9300C9522A /* skybox2.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBAA13A6BA3C00C9522A /* skybox2.png */; };
+		D23CCD2613A6BF9300C9522A /* skybox2_dawn.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBAB13A6BA3C00C9522A /* skybox2_dawn.png */; };
+		D23CCD2713A6BF9300C9522A /* skybox2_night.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBAC13A6BA3C00C9522A /* skybox2_night.png */; };
+		D23CCD2813A6BF9300C9522A /* skybox3.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBAD13A6BA3C00C9522A /* skybox3.png */; };
+		D23CCD2913A6BF9300C9522A /* skybox3_dawn.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBAE13A6BA3C00C9522A /* skybox3_dawn.png */; };
+		D23CCD2A13A6BF9300C9522A /* skybox3_night.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBAF13A6BA3C00C9522A /* skybox3_night.png */; };
+		D23CCD2B13A6BF9300C9522A /* steel_block.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBB013A6BA3C00C9522A /* steel_block.png */; };
+		D23CCD2C13A6BF9300C9522A /* steel_ingot.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBB113A6BA3C00C9522A /* steel_ingot.png */; };
+		D23CCD2D13A6BF9300C9522A /* stick.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBB213A6BA3C00C9522A /* stick.png */; };
+		D23CCD2E13A6BF9300C9522A /* stone.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBB313A6BA3C00C9522A /* stone.png */; };
+		D23CCD2F13A6BF9300C9522A /* tool_mesepick.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBB413A6BA3C00C9522A /* tool_mesepick.png */; };
+		D23CCD3013A6BF9300C9522A /* tool_steelaxe.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBB513A6BA3C00C9522A /* tool_steelaxe.png */; };
+		D23CCD3113A6BF9300C9522A /* tool_steelpick.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBB613A6BA3C00C9522A /* tool_steelpick.png */; };
+		D23CCD3213A6BF9300C9522A /* tool_steelshovel.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBB713A6BA3C00C9522A /* tool_steelshovel.png */; };
+		D23CCD3313A6BF9300C9522A /* tool_stoneaxe.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBB813A6BA3C00C9522A /* tool_stoneaxe.png */; };
+		D23CCD3413A6BF9300C9522A /* tool_stonepick.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBB913A6BA3C00C9522A /* tool_stonepick.png */; };
+		D23CCD3513A6BF9300C9522A /* tool_stoneshovel.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBBA13A6BA3C00C9522A /* tool_stoneshovel.png */; };
+		D23CCD3613A6BF9300C9522A /* tool_woodaxe.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBBB13A6BA3C00C9522A /* tool_woodaxe.png */; };
+		D23CCD3713A6BF9300C9522A /* tool_woodpick.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBBC13A6BA3C00C9522A /* tool_woodpick.png */; };
+		D23CCD3813A6BF9300C9522A /* tool_woodshovel.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBBD13A6BA3C00C9522A /* tool_woodshovel.png */; };
+		D23CCD3913A6BF9300C9522A /* torch.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBBE13A6BA3C00C9522A /* torch.png */; };
+		D23CCD3A13A6BF9300C9522A /* torch_on_ceiling.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBBF13A6BA3C00C9522A /* torch_on_ceiling.png */; };
+		D23CCD3B13A6BF9300C9522A /* torch_on_floor.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBC013A6BA3C00C9522A /* torch_on_floor.png */; };
+		D23CCD3C13A6BF9300C9522A /* tree.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBC113A6BA3C00C9522A /* tree.png */; };
+		D23CCD3D13A6BF9300C9522A /* tree_top.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBC213A6BA3C00C9522A /* tree_top.png */; };
+		D23CCD3E13A6BF9300C9522A /* water.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBC313A6BA3C00C9522A /* water.png */; };
+		D23CCD3F13A6BF9300C9522A /* wood.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D23CCBC413A6BA3C00C9522A /* wood.png */; };
 		D24C939713AC26CD0080BDF2 /* content_inventory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D24C939413AC26CD0080BDF2 /* content_inventory.cpp */; };
-		D252663713EDE14400F2E3AE /* cooked_rat.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D252662313EDE12700F2E3AE /* cooked_rat.png */; };
-		D252663813EDE14400F2E3AE /* ladder.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D252662413EDE12700F2E3AE /* ladder.png */; };
-		D252663913EDE14400F2E3AE /* nc_back.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D252662513EDE12700F2E3AE /* nc_back.png */; };
-		D252663A13EDE14400F2E3AE /* nc_front.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D252662613EDE12700F2E3AE /* nc_front.png */; };
-		D252663B13EDE14400F2E3AE /* nc_rb.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D252662713EDE12700F2E3AE /* nc_rb.png */; };
-		D252663C13EDE14400F2E3AE /* nc_side.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D252662813EDE12700F2E3AE /* nc_side.png */; };
-		D252663D13EDE14400F2E3AE /* scorched_stuff.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D252662913EDE12700F2E3AE /* scorched_stuff.png */; };
-		D252663E13EDE14400F2E3AE /* tool_steelsword.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D252662A13EDE12700F2E3AE /* tool_steelsword.png */; };
-		D252663F13EDE14400F2E3AE /* tool_stonesword.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D252662B13EDE12700F2E3AE /* tool_stonesword.png */; };
-		D252664013EDE14400F2E3AE /* tool_woodsword.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D252662C13EDE12700F2E3AE /* tool_woodsword.png */; };
+		D252663713EDE14400F2E3AE /* cooked_rat.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D252662313EDE12700F2E3AE /* cooked_rat.png */; };
+		D252663813EDE14400F2E3AE /* ladder.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D252662413EDE12700F2E3AE /* ladder.png */; };
+		D252663913EDE14400F2E3AE /* nc_back.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D252662513EDE12700F2E3AE /* nc_back.png */; };
+		D252663A13EDE14400F2E3AE /* nc_front.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D252662613EDE12700F2E3AE /* nc_front.png */; };
+		D252663B13EDE14400F2E3AE /* nc_rb.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D252662713EDE12700F2E3AE /* nc_rb.png */; };
+		D252663C13EDE14400F2E3AE /* nc_side.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D252662813EDE12700F2E3AE /* nc_side.png */; };
+		D252663D13EDE14400F2E3AE /* scorched_stuff.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D252662913EDE12700F2E3AE /* scorched_stuff.png */; };
+		D252663E13EDE14400F2E3AE /* tool_steelsword.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D252662A13EDE12700F2E3AE /* tool_steelsword.png */; };
+		D252663F13EDE14400F2E3AE /* tool_stonesword.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D252662B13EDE12700F2E3AE /* tool_stonesword.png */; };
+		D252664013EDE14400F2E3AE /* tool_woodsword.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D252662C13EDE12700F2E3AE /* tool_woodsword.png */; };
 		D257AFC013E3626400CBB8B1 /* guiKeyChangeMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D257AFBE13E3626400CBB8B1 /* guiKeyChangeMenu.cpp */; };
-		D257AFED13E3657000CBB8B1 /* book.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFC113E3655C00CBB8B1 /* book.png */; };
-		D257AFEE13E3657000CBB8B1 /* bookshelf.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFC213E3655C00CBB8B1 /* bookshelf.png */; };
-		D257AFEF13E3657000CBB8B1 /* brick.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFC313E3655C00CBB8B1 /* brick.png */; };
-		D257AFF013E3657000CBB8B1 /* cactus_side.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFC413E3655C00CBB8B1 /* cactus_side.png */; };
-		D257AFF113E3657000CBB8B1 /* cactus_top.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFC513E3655C00CBB8B1 /* cactus_top.png */; };
-		D257AFF213E3657000CBB8B1 /* clay_brick.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFC613E3655C00CBB8B1 /* clay_brick.png */; };
-		D257AFF313E3657000CBB8B1 /* clay.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFC713E3655C00CBB8B1 /* clay.png */; };
-		D257AFF413E3657000CBB8B1 /* fence.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFC813E3655C00CBB8B1 /* fence.png */; };
-		D257AFF513E3657000CBB8B1 /* gravel.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFC913E3655C00CBB8B1 /* gravel.png */; };
-		D257AFF613E3657000CBB8B1 /* junglegrass.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFCA13E3655C00CBB8B1 /* junglegrass.png */; };
-		D257AFF713E3657000CBB8B1 /* jungletree_top.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFCB13E3655C00CBB8B1 /* jungletree_top.png */; };
-		D257AFF813E3657000CBB8B1 /* jungletree.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFCC13E3655C00CBB8B1 /* jungletree.png */; };
-		D257AFF913E3657000CBB8B1 /* lump_of_clay.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFCD13E3655C00CBB8B1 /* lump_of_clay.png */; };
-		D257AFFA13E3657000CBB8B1 /* mossycobble.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFCE13E3655C00CBB8B1 /* mossycobble.png */; };
-		D257AFFB13E3657000CBB8B1 /* paper.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFCF13E3655C00CBB8B1 /* paper.png */; };
-		D257AFFC13E3657000CBB8B1 /* papyrus.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFD013E3655C00CBB8B1 /* papyrus.png */; };
-		D257AFFD13E3657000CBB8B1 /* rail_crossing.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFD113E3655C00CBB8B1 /* rail_crossing.png */; };
-		D257AFFE13E3657000CBB8B1 /* rail_curved.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFD213E3655C00CBB8B1 /* rail_curved.png */; };
-		D257AFFF13E3657000CBB8B1 /* rail_t_junction.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFD313E3655C00CBB8B1 /* rail_t_junction.png */; };
-		D257B00013E3657000CBB8B1 /* rail.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFD413E3655C00CBB8B1 /* rail.png */; };
-		D257B00113E3657000CBB8B1 /* sandstone.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFD513E3655C00CBB8B1 /* sandstone.png */; };
-		D257B00213E3657000CBB8B1 /* treeprop.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D257AFD613E3655C00CBB8B1 /* treeprop.png */; };
+		D257AFED13E3657000CBB8B1 /* book.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFC113E3655C00CBB8B1 /* book.png */; };
+		D257AFEE13E3657000CBB8B1 /* bookshelf.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFC213E3655C00CBB8B1 /* bookshelf.png */; };
+		D257AFEF13E3657000CBB8B1 /* brick.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFC313E3655C00CBB8B1 /* brick.png */; };
+		D257AFF013E3657000CBB8B1 /* cactus_side.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFC413E3655C00CBB8B1 /* cactus_side.png */; };
+		D257AFF113E3657000CBB8B1 /* cactus_top.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFC513E3655C00CBB8B1 /* cactus_top.png */; };
+		D257AFF213E3657000CBB8B1 /* clay_brick.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFC613E3655C00CBB8B1 /* clay_brick.png */; };
+		D257AFF313E3657000CBB8B1 /* clay.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFC713E3655C00CBB8B1 /* clay.png */; };
+		D257AFF413E3657000CBB8B1 /* fence.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFC813E3655C00CBB8B1 /* fence.png */; };
+		D257AFF513E3657000CBB8B1 /* gravel.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFC913E3655C00CBB8B1 /* gravel.png */; };
+		D257AFF613E3657000CBB8B1 /* junglegrass.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFCA13E3655C00CBB8B1 /* junglegrass.png */; };
+		D257AFF713E3657000CBB8B1 /* jungletree_top.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFCB13E3655C00CBB8B1 /* jungletree_top.png */; };
+		D257AFF813E3657000CBB8B1 /* jungletree.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFCC13E3655C00CBB8B1 /* jungletree.png */; };
+		D257AFF913E3657000CBB8B1 /* lump_of_clay.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFCD13E3655C00CBB8B1 /* lump_of_clay.png */; };
+		D257AFFA13E3657000CBB8B1 /* mossycobble.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFCE13E3655C00CBB8B1 /* mossycobble.png */; };
+		D257AFFB13E3657000CBB8B1 /* paper.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFCF13E3655C00CBB8B1 /* paper.png */; };
+		D257AFFC13E3657000CBB8B1 /* papyrus.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFD013E3655C00CBB8B1 /* papyrus.png */; };
+		D257AFFD13E3657000CBB8B1 /* rail_crossing.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFD113E3655C00CBB8B1 /* rail_crossing.png */; };
+		D257AFFE13E3657000CBB8B1 /* rail_curved.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFD213E3655C00CBB8B1 /* rail_curved.png */; };
+		D257AFFF13E3657000CBB8B1 /* rail_t_junction.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFD313E3655C00CBB8B1 /* rail_t_junction.png */; };
+		D257B00013E3657000CBB8B1 /* rail.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFD413E3655C00CBB8B1 /* rail.png */; };
+		D257B00113E3657000CBB8B1 /* sandstone.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFD513E3655C00CBB8B1 /* sandstone.png */; };
+		D257B00213E3657000CBB8B1 /* treeprop.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D257AFD613E3655C00CBB8B1 /* treeprop.png */; };
 		D27531E413C4A21F004B1554 /* content_cao.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27531DF13C4A21F004B1554 /* content_cao.cpp */; };
 		D27531E513C4A21F004B1554 /* content_sao.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27531E213C4A21F004B1554 /* content_sao.cpp */; };
 		D27BCD0C140FBB0C0079B1F7 /* ban.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27BCD0A140FBB0C0079B1F7 /* ban.cpp */; };
-		D27BCD10140FBB540079B1F7 /* lava.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D27BCD0E140FBB460079B1F7 /* lava.png */; };
-		D2B04D45142BD99A00A55FCE /* apple_iron.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D21096BB142BD39A0091EBB8 /* apple_iron.png */; };
-		D2B04D46142BD99B00A55FCE /* apple.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D21096BC142BD39A0091EBB8 /* apple.png */; };
-		D2C4CE2A1445B46E002F7EF4 /* chest_lock.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D2C4CE251445B451002F7EF4 /* chest_lock.png */; };
-		D2C4CE2B1445B46E002F7EF4 /* sapling.png in Copy Textures (96 items) */ = {isa = PBXBuildFile; fileRef = D2C4CE261445B451002F7EF4 /* sapling.png */; };
+		D27BCD10140FBB540079B1F7 /* lava.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D27BCD0E140FBB460079B1F7 /* lava.png */; };
+		D2B04D45142BD99A00A55FCE /* apple_iron.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D21096BB142BD39A0091EBB8 /* apple_iron.png */; };
+		D2B04D46142BD99B00A55FCE /* apple.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D21096BC142BD39A0091EBB8 /* apple.png */; };
+		D2C4CE2A1445B46E002F7EF4 /* chest_lock.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C4CE251445B451002F7EF4 /* chest_lock.png */; };
+		D2C4CE2B1445B46E002F7EF4 /* sapling.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2C4CE261445B451002F7EF4 /* sapling.png */; };
 		D2C4CE321445B4DB002F7EF4 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C4CE2C1445B4DB002F7EF4 /* camera.cpp */; };
 		D2C8D38F13B76C3C00AE9330 /* mapgen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */; };
 		D2D2862313ABD310004BDB7B /* minetest-mac.sh in Copy minetest.sh */ = {isa = PBXBuildFile; fileRef = D2D2861C13ABD2CD004BDB7B /* minetest-mac.sh */; };
@@ -203,6 +202,10 @@
 		D2D2899513AC1529004BDB7B /* content_mapnode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2898F13AC1529004BDB7B /* content_mapnode.cpp */; };
 		D2D2899613AC1529004BDB7B /* content_nodemeta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2899113AC1529004BDB7B /* content_nodemeta.cpp */; };
 		D2D2899E13AC15FD004BDB7B /* mapblock_mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2899C13AC15FD004BDB7B /* mapblock_mesh.cpp */; };
+		D2D5F074144AD290003ABA81 /* guiDeathScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F070144AD290003ABA81 /* guiDeathScreen.cpp */; };
+		D2D5F075144AD290003ABA81 /* MyBillboardSceneNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F072144AD290003ABA81 /* MyBillboardSceneNode.cpp */; };
+		D2D5F078144AD2D0003ABA81 /* dungeon_master.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2D5F076144AD2B8003ABA81 /* dungeon_master.png */; };
+		D2D5F079144AD2D0003ABA81 /* fireball.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2D5F077144AD2B8003ABA81 /* fireball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -234,115 +237,117 @@
 			name = "Copy Irrlicht.framework";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D23CCD0213A6BF8600C9522A /* Copy Textures (96 items) */ = {
+		D23CCD0213A6BF8600C9522A /* Copy Textures */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			comments = "copy the texture files";
 			dstPath = data;
 			dstSubfolderSpec = 7;
 			files = (
-				D2C4CE2A1445B46E002F7EF4 /* chest_lock.png in Copy Textures (96 items) */,
-				D2C4CE2B1445B46E002F7EF4 /* sapling.png in Copy Textures (96 items) */,
-				D2B04D45142BD99A00A55FCE /* apple_iron.png in Copy Textures (96 items) */,
-				D2B04D46142BD99B00A55FCE /* apple.png in Copy Textures (96 items) */,
-				D27BCD10140FBB540079B1F7 /* lava.png in Copy Textures (96 items) */,
-				D252663713EDE14400F2E3AE /* cooked_rat.png in Copy Textures (96 items) */,
-				D252663813EDE14400F2E3AE /* ladder.png in Copy Textures (96 items) */,
-				D252663913EDE14400F2E3AE /* nc_back.png in Copy Textures (96 items) */,
-				D252663A13EDE14400F2E3AE /* nc_front.png in Copy Textures (96 items) */,
-				D252663B13EDE14400F2E3AE /* nc_rb.png in Copy Textures (96 items) */,
-				D252663C13EDE14400F2E3AE /* nc_side.png in Copy Textures (96 items) */,
-				D252663D13EDE14400F2E3AE /* scorched_stuff.png in Copy Textures (96 items) */,
-				D252663E13EDE14400F2E3AE /* tool_steelsword.png in Copy Textures (96 items) */,
-				D252663F13EDE14400F2E3AE /* tool_stonesword.png in Copy Textures (96 items) */,
-				D252664013EDE14400F2E3AE /* tool_woodsword.png in Copy Textures (96 items) */,
-				D257AFED13E3657000CBB8B1 /* book.png in Copy Textures (96 items) */,
-				D257AFEE13E3657000CBB8B1 /* bookshelf.png in Copy Textures (96 items) */,
-				D257AFEF13E3657000CBB8B1 /* brick.png in Copy Textures (96 items) */,
-				D257AFF013E3657000CBB8B1 /* cactus_side.png in Copy Textures (96 items) */,
-				D257AFF113E3657000CBB8B1 /* cactus_top.png in Copy Textures (96 items) */,
-				D257AFF213E3657000CBB8B1 /* clay_brick.png in Copy Textures (96 items) */,
-				D257AFF313E3657000CBB8B1 /* clay.png in Copy Textures (96 items) */,
-				D257AFF413E3657000CBB8B1 /* fence.png in Copy Textures (96 items) */,
-				D257AFF513E3657000CBB8B1 /* gravel.png in Copy Textures (96 items) */,
-				D257AFF613E3657000CBB8B1 /* junglegrass.png in Copy Textures (96 items) */,
-				D257AFF713E3657000CBB8B1 /* jungletree_top.png in Copy Textures (96 items) */,
-				D257AFF813E3657000CBB8B1 /* jungletree.png in Copy Textures (96 items) */,
-				D257AFF913E3657000CBB8B1 /* lump_of_clay.png in Copy Textures (96 items) */,
-				D257AFFA13E3657000CBB8B1 /* mossycobble.png in Copy Textures (96 items) */,
-				D257AFFB13E3657000CBB8B1 /* paper.png in Copy Textures (96 items) */,
-				D257AFFC13E3657000CBB8B1 /* papyrus.png in Copy Textures (96 items) */,
-				D257AFFD13E3657000CBB8B1 /* rail_crossing.png in Copy Textures (96 items) */,
-				D257AFFE13E3657000CBB8B1 /* rail_curved.png in Copy Textures (96 items) */,
-				D257AFFF13E3657000CBB8B1 /* rail_t_junction.png in Copy Textures (96 items) */,
-				D257B00013E3657000CBB8B1 /* rail.png in Copy Textures (96 items) */,
-				D257B00113E3657000CBB8B1 /* sandstone.png in Copy Textures (96 items) */,
-				D257B00213E3657000CBB8B1 /* treeprop.png in Copy Textures (96 items) */,
-				D23CCD0313A6BF9300C9522A /* chest_front.png in Copy Textures (96 items) */,
-				D23CCD0413A6BF9300C9522A /* chest_side.png in Copy Textures (96 items) */,
-				D23CCD0513A6BF9300C9522A /* chest_top.png in Copy Textures (96 items) */,
-				D23CCD0613A6BF9300C9522A /* cloud.png in Copy Textures (96 items) */,
-				D23CCD0713A6BF9300C9522A /* cobble.png in Copy Textures (96 items) */,
-				D23CCD0813A6BF9300C9522A /* crack.png in Copy Textures (96 items) */,
-				D213FD4113D776CE00EAAA22 /* firefly.png in Copy Textures (96 items) */,
-				D23CCD0913A6BF9300C9522A /* fontlucida.png in Copy Textures (96 items) */,
-				D23CCD0A13A6BF9300C9522A /* furnace_front.png in Copy Textures (96 items) */,
-				D23CCD0B13A6BF9300C9522A /* furnace_side.png in Copy Textures (96 items) */,
-				D23CCD0C13A6BF9300C9522A /* glass.png in Copy Textures (96 items) */,
-				D23CCD0D13A6BF9300C9522A /* grass.png in Copy Textures (96 items) */,
-				D23CCD0E13A6BF9300C9522A /* grass_footsteps.png in Copy Textures (96 items) */,
-				D23CCD0F13A6BF9300C9522A /* grass_side.png in Copy Textures (96 items) */,
-				D23CCD1013A6BF9300C9522A /* heart.png in Copy Textures (96 items) */,
-				D23CCD1213A6BF9300C9522A /* leaves.png in Copy Textures (96 items) */,
-				D23CCD1313A6BF9300C9522A /* lump_of_coal.png in Copy Textures (96 items) */,
-				D23CCD1413A6BF9300C9522A /* lump_of_iron.png in Copy Textures (96 items) */,
-				D23CCD1513A6BF9300C9522A /* menulogo.png in Copy Textures (96 items) */,
-				D23CCD1613A6BF9300C9522A /* mese.png in Copy Textures (96 items) */,
-				D23CCD1713A6BF9300C9522A /* mineral_coal.png in Copy Textures (96 items) */,
-				D23CCD1813A6BF9300C9522A /* mineral_iron.png in Copy Textures (96 items) */,
-				D23CCD1913A6BF9300C9522A /* mud.png in Copy Textures (96 items) */,
-				D23CCD1A13A6BF9300C9522A /* oerkki1.png in Copy Textures (96 items) */,
-				D213FD4213D776CE00EAAA22 /* oerkki1_damaged.png in Copy Textures (96 items) */,
-				D23CCD1B13A6BF9300C9522A /* player.png in Copy Textures (96 items) */,
-				D23CCD1C13A6BF9300C9522A /* player_back.png in Copy Textures (96 items) */,
-				D23CCD1D13A6BF9300C9522A /* rat.png in Copy Textures (96 items) */,
-				D23CCD1E13A6BF9300C9522A /* sand.png in Copy Textures (96 items) */,
-				D23CCD1F13A6BF9300C9522A /* sign.png in Copy Textures (96 items) */,
-				D23CCD2013A6BF9300C9522A /* sign_back.png in Copy Textures (96 items) */,
-				D23CCD2113A6BF9300C9522A /* sign_wall.png in Copy Textures (96 items) */,
-				D23CCD2213A6BF9300C9522A /* skybox1.png in Copy Textures (96 items) */,
-				D23CCD2313A6BF9300C9522A /* skybox1_dawn.png in Copy Textures (96 items) */,
-				D23CCD2413A6BF9300C9522A /* skybox1_night.png in Copy Textures (96 items) */,
-				D23CCD2513A6BF9300C9522A /* skybox2.png in Copy Textures (96 items) */,
-				D23CCD2613A6BF9300C9522A /* skybox2_dawn.png in Copy Textures (96 items) */,
-				D23CCD2713A6BF9300C9522A /* skybox2_night.png in Copy Textures (96 items) */,
-				D23CCD2813A6BF9300C9522A /* skybox3.png in Copy Textures (96 items) */,
-				D23CCD2913A6BF9300C9522A /* skybox3_dawn.png in Copy Textures (96 items) */,
-				D23CCD2A13A6BF9300C9522A /* skybox3_night.png in Copy Textures (96 items) */,
-				D23CCD2B13A6BF9300C9522A /* steel_block.png in Copy Textures (96 items) */,
-				D23CCD2C13A6BF9300C9522A /* steel_ingot.png in Copy Textures (96 items) */,
-				D23CCD2D13A6BF9300C9522A /* stick.png in Copy Textures (96 items) */,
-				D23CCD2E13A6BF9300C9522A /* stone.png in Copy Textures (96 items) */,
-				D23CCD2F13A6BF9300C9522A /* tool_mesepick.png in Copy Textures (96 items) */,
-				D23CCD3013A6BF9300C9522A /* tool_steelaxe.png in Copy Textures (96 items) */,
-				D23CCD3113A6BF9300C9522A /* tool_steelpick.png in Copy Textures (96 items) */,
-				D23CCD3213A6BF9300C9522A /* tool_steelshovel.png in Copy Textures (96 items) */,
-				D23CCD3313A6BF9300C9522A /* tool_stoneaxe.png in Copy Textures (96 items) */,
-				D23CCD3413A6BF9300C9522A /* tool_stonepick.png in Copy Textures (96 items) */,
-				D23CCD3513A6BF9300C9522A /* tool_stoneshovel.png in Copy Textures (96 items) */,
-				D23CCD3613A6BF9300C9522A /* tool_woodaxe.png in Copy Textures (96 items) */,
-				D23CCD3713A6BF9300C9522A /* tool_woodpick.png in Copy Textures (96 items) */,
-				D23CCD3813A6BF9300C9522A /* tool_woodshovel.png in Copy Textures (96 items) */,
-				D23CCD3913A6BF9300C9522A /* torch.png in Copy Textures (96 items) */,
-				D23CCD3A13A6BF9300C9522A /* torch_on_ceiling.png in Copy Textures (96 items) */,
-				D23CCD3B13A6BF9300C9522A /* torch_on_floor.png in Copy Textures (96 items) */,
-				D23CCD3C13A6BF9300C9522A /* tree.png in Copy Textures (96 items) */,
-				D23CCD3D13A6BF9300C9522A /* tree_top.png in Copy Textures (96 items) */,
-				D213FD4313D776CE00EAAA22 /* unknown_block.png in Copy Textures (96 items) */,
-				D23CCD3E13A6BF9300C9522A /* water.png in Copy Textures (96 items) */,
-				D23CCD3F13A6BF9300C9522A /* wood.png in Copy Textures (96 items) */,
+				D2D5F078144AD2D0003ABA81 /* dungeon_master.png in Copy Textures */,
+				D2D5F079144AD2D0003ABA81 /* fireball.png in Copy Textures */,
+				D2C4CE2A1445B46E002F7EF4 /* chest_lock.png in Copy Textures */,
+				D2C4CE2B1445B46E002F7EF4 /* sapling.png in Copy Textures */,
+				D2B04D45142BD99A00A55FCE /* apple_iron.png in Copy Textures */,
+				D2B04D46142BD99B00A55FCE /* apple.png in Copy Textures */,
+				D27BCD10140FBB540079B1F7 /* lava.png in Copy Textures */,
+				D252663713EDE14400F2E3AE /* cooked_rat.png in Copy Textures */,
+				D252663813EDE14400F2E3AE /* ladder.png in Copy Textures */,
+				D252663913EDE14400F2E3AE /* nc_back.png in Copy Textures */,
+				D252663A13EDE14400F2E3AE /* nc_front.png in Copy Textures */,
+				D252663B13EDE14400F2E3AE /* nc_rb.png in Copy Textures */,
+				D252663C13EDE14400F2E3AE /* nc_side.png in Copy Textures */,
+				D252663D13EDE14400F2E3AE /* scorched_stuff.png in Copy Textures */,
+				D252663E13EDE14400F2E3AE /* tool_steelsword.png in Copy Textures */,
+				D252663F13EDE14400F2E3AE /* tool_stonesword.png in Copy Textures */,
+				D252664013EDE14400F2E3AE /* tool_woodsword.png in Copy Textures */,
+				D257AFED13E3657000CBB8B1 /* book.png in Copy Textures */,
+				D257AFEE13E3657000CBB8B1 /* bookshelf.png in Copy Textures */,
+				D257AFEF13E3657000CBB8B1 /* brick.png in Copy Textures */,
+				D257AFF013E3657000CBB8B1 /* cactus_side.png in Copy Textures */,
+				D257AFF113E3657000CBB8B1 /* cactus_top.png in Copy Textures */,
+				D257AFF213E3657000CBB8B1 /* clay_brick.png in Copy Textures */,
+				D257AFF313E3657000CBB8B1 /* clay.png in Copy Textures */,
+				D257AFF413E3657000CBB8B1 /* fence.png in Copy Textures */,
+				D257AFF513E3657000CBB8B1 /* gravel.png in Copy Textures */,
+				D257AFF613E3657000CBB8B1 /* junglegrass.png in Copy Textures */,
+				D257AFF713E3657000CBB8B1 /* jungletree_top.png in Copy Textures */,
+				D257AFF813E3657000CBB8B1 /* jungletree.png in Copy Textures */,
+				D257AFF913E3657000CBB8B1 /* lump_of_clay.png in Copy Textures */,
+				D257AFFA13E3657000CBB8B1 /* mossycobble.png in Copy Textures */,
+				D257AFFB13E3657000CBB8B1 /* paper.png in Copy Textures */,
+				D257AFFC13E3657000CBB8B1 /* papyrus.png in Copy Textures */,
+				D257AFFD13E3657000CBB8B1 /* rail_crossing.png in Copy Textures */,
+				D257AFFE13E3657000CBB8B1 /* rail_curved.png in Copy Textures */,
+				D257AFFF13E3657000CBB8B1 /* rail_t_junction.png in Copy Textures */,
+				D257B00013E3657000CBB8B1 /* rail.png in Copy Textures */,
+				D257B00113E3657000CBB8B1 /* sandstone.png in Copy Textures */,
+				D257B00213E3657000CBB8B1 /* treeprop.png in Copy Textures */,
+				D23CCD0313A6BF9300C9522A /* chest_front.png in Copy Textures */,
+				D23CCD0413A6BF9300C9522A /* chest_side.png in Copy Textures */,
+				D23CCD0513A6BF9300C9522A /* chest_top.png in Copy Textures */,
+				D23CCD0613A6BF9300C9522A /* cloud.png in Copy Textures */,
+				D23CCD0713A6BF9300C9522A /* cobble.png in Copy Textures */,
+				D23CCD0813A6BF9300C9522A /* crack.png in Copy Textures */,
+				D213FD4113D776CE00EAAA22 /* firefly.png in Copy Textures */,
+				D23CCD0913A6BF9300C9522A /* fontlucida.png in Copy Textures */,
+				D23CCD0A13A6BF9300C9522A /* furnace_front.png in Copy Textures */,
+				D23CCD0B13A6BF9300C9522A /* furnace_side.png in Copy Textures */,
+				D23CCD0C13A6BF9300C9522A /* glass.png in Copy Textures */,
+				D23CCD0D13A6BF9300C9522A /* grass.png in Copy Textures */,
+				D23CCD0E13A6BF9300C9522A /* grass_footsteps.png in Copy Textures */,
+				D23CCD0F13A6BF9300C9522A /* grass_side.png in Copy Textures */,
+				D23CCD1013A6BF9300C9522A /* heart.png in Copy Textures */,
+				D23CCD1213A6BF9300C9522A /* leaves.png in Copy Textures */,
+				D23CCD1313A6BF9300C9522A /* lump_of_coal.png in Copy Textures */,
+				D23CCD1413A6BF9300C9522A /* lump_of_iron.png in Copy Textures */,
+				D23CCD1513A6BF9300C9522A /* menulogo.png in Copy Textures */,
+				D23CCD1613A6BF9300C9522A /* mese.png in Copy Textures */,
+				D23CCD1713A6BF9300C9522A /* mineral_coal.png in Copy Textures */,
+				D23CCD1813A6BF9300C9522A /* mineral_iron.png in Copy Textures */,
+				D23CCD1913A6BF9300C9522A /* mud.png in Copy Textures */,
+				D23CCD1A13A6BF9300C9522A /* oerkki1.png in Copy Textures */,
+				D213FD4213D776CE00EAAA22 /* oerkki1_damaged.png in Copy Textures */,
+				D23CCD1B13A6BF9300C9522A /* player.png in Copy Textures */,
+				D23CCD1C13A6BF9300C9522A /* player_back.png in Copy Textures */,
+				D23CCD1D13A6BF9300C9522A /* rat.png in Copy Textures */,
+				D23CCD1E13A6BF9300C9522A /* sand.png in Copy Textures */,
+				D23CCD1F13A6BF9300C9522A /* sign.png in Copy Textures */,
+				D23CCD2013A6BF9300C9522A /* sign_back.png in Copy Textures */,
+				D23CCD2113A6BF9300C9522A /* sign_wall.png in Copy Textures */,
+				D23CCD2213A6BF9300C9522A /* skybox1.png in Copy Textures */,
+				D23CCD2313A6BF9300C9522A /* skybox1_dawn.png in Copy Textures */,
+				D23CCD2413A6BF9300C9522A /* skybox1_night.png in Copy Textures */,
+				D23CCD2513A6BF9300C9522A /* skybox2.png in Copy Textures */,
+				D23CCD2613A6BF9300C9522A /* skybox2_dawn.png in Copy Textures */,
+				D23CCD2713A6BF9300C9522A /* skybox2_night.png in Copy Textures */,
+				D23CCD2813A6BF9300C9522A /* skybox3.png in Copy Textures */,
+				D23CCD2913A6BF9300C9522A /* skybox3_dawn.png in Copy Textures */,
+				D23CCD2A13A6BF9300C9522A /* skybox3_night.png in Copy Textures */,
+				D23CCD2B13A6BF9300C9522A /* steel_block.png in Copy Textures */,
+				D23CCD2C13A6BF9300C9522A /* steel_ingot.png in Copy Textures */,
+				D23CCD2D13A6BF9300C9522A /* stick.png in Copy Textures */,
+				D23CCD2E13A6BF9300C9522A /* stone.png in Copy Textures */,
+				D23CCD2F13A6BF9300C9522A /* tool_mesepick.png in Copy Textures */,
+				D23CCD3013A6BF9300C9522A /* tool_steelaxe.png in Copy Textures */,
+				D23CCD3113A6BF9300C9522A /* tool_steelpick.png in Copy Textures */,
+				D23CCD3213A6BF9300C9522A /* tool_steelshovel.png in Copy Textures */,
+				D23CCD3313A6BF9300C9522A /* tool_stoneaxe.png in Copy Textures */,
+				D23CCD3413A6BF9300C9522A /* tool_stonepick.png in Copy Textures */,
+				D23CCD3513A6BF9300C9522A /* tool_stoneshovel.png in Copy Textures */,
+				D23CCD3613A6BF9300C9522A /* tool_woodaxe.png in Copy Textures */,
+				D23CCD3713A6BF9300C9522A /* tool_woodpick.png in Copy Textures */,
+				D23CCD3813A6BF9300C9522A /* tool_woodshovel.png in Copy Textures */,
+				D23CCD3913A6BF9300C9522A /* torch.png in Copy Textures */,
+				D23CCD3A13A6BF9300C9522A /* torch_on_ceiling.png in Copy Textures */,
+				D23CCD3B13A6BF9300C9522A /* torch_on_floor.png in Copy Textures */,
+				D23CCD3C13A6BF9300C9522A /* tree.png in Copy Textures */,
+				D23CCD3D13A6BF9300C9522A /* tree_top.png in Copy Textures */,
+				D213FD4313D776CE00EAAA22 /* unknown_block.png in Copy Textures */,
+				D23CCD3E13A6BF9300C9522A /* water.png in Copy Textures */,
+				D23CCD3F13A6BF9300C9522A /* wood.png in Copy Textures */,
 			);
-			name = "Copy Textures (96 items)";
+			name = "Copy Textures";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D2D2862A13ABD31B004BDB7B /* Copy minetest.sh */ = {
@@ -431,8 +436,6 @@
 		D23CC8A613A6B2A900C9522A /* map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
 		D23CC8A713A6B2A900C9522A /* mapblock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapblock.cpp; sourceTree = "<group>"; };
 		D23CC8A813A6B2A900C9522A /* mapblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapblock.h; sourceTree = "<group>"; };
-		D23CC8A913A6B2A900C9522A /* mapblockobject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapblockobject.cpp; sourceTree = "<group>"; };
-		D23CC8AA13A6B2A900C9522A /* mapblockobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapblockobject.h; sourceTree = "<group>"; };
 		D23CC8AB13A6B2A900C9522A /* mapchunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapchunk.h; sourceTree = "<group>"; };
 		D23CC8AC13A6B2A900C9522A /* mapnode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapnode.cpp; sourceTree = "<group>"; };
 		D23CC8AD13A6B2A900C9522A /* mapnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapnode.h; sourceTree = "<group>"; };
@@ -608,6 +611,12 @@
 		D2D2899213AC1529004BDB7B /* content_nodemeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_nodemeta.h; sourceTree = "<group>"; };
 		D2D2899C13AC15FD004BDB7B /* mapblock_mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapblock_mesh.cpp; sourceTree = "<group>"; };
 		D2D2899D13AC15FD004BDB7B /* mapblock_mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapblock_mesh.h; sourceTree = "<group>"; };
+		D2D5F070144AD290003ABA81 /* guiDeathScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guiDeathScreen.cpp; sourceTree = "<group>"; };
+		D2D5F071144AD290003ABA81 /* guiDeathScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiDeathScreen.h; sourceTree = "<group>"; };
+		D2D5F072144AD290003ABA81 /* MyBillboardSceneNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyBillboardSceneNode.cpp; sourceTree = "<group>"; };
+		D2D5F073144AD290003ABA81 /* MyBillboardSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBillboardSceneNode.h; sourceTree = "<group>"; };
+		D2D5F076144AD2B8003ABA81 /* dungeon_master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dungeon_master.png; sourceTree = "<group>"; };
+		D2D5F077144AD2B8003ABA81 /* fireball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireball.png; sourceTree = "<group>"; };
 		D2FD4E0613D724E900AD3E45 /* minetest.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = minetest.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -700,6 +709,10 @@
 		D23CC83513A6B2A900C9522A /* src */ = {
 			isa = PBXGroup;
 			children = (
+				D2D5F070144AD290003ABA81 /* guiDeathScreen.cpp */,
+				D2D5F071144AD290003ABA81 /* guiDeathScreen.h */,
+				D2D5F072144AD290003ABA81 /* MyBillboardSceneNode.cpp */,
+				D2D5F073144AD290003ABA81 /* MyBillboardSceneNode.h */,
 				D2C4CE2C1445B4DB002F7EF4 /* camera.cpp */,
 				D2C4CE2D1445B4DB002F7EF4 /* camera.h */,
 				D2C4CE2E1445B4DB002F7EF4 /* defaultsettings.h */,
@@ -786,8 +799,6 @@
 				D23CC8A613A6B2A900C9522A /* map.h */,
 				D23CC8A713A6B2A900C9522A /* mapblock.cpp */,
 				D23CC8A813A6B2A900C9522A /* mapblock.h */,
-				D23CC8A913A6B2A900C9522A /* mapblockobject.cpp */,
-				D23CC8AA13A6B2A900C9522A /* mapblockobject.h */,
 				D23CC8AB13A6B2A900C9522A /* mapchunk.h */,
 				D23CC8AC13A6B2A900C9522A /* mapnode.cpp */,
 				D23CC8AD13A6B2A900C9522A /* mapnode.h */,
@@ -839,6 +850,8 @@
 		D23CCB8713A6BA3C00C9522A /* data */ = {
 			isa = PBXGroup;
 			children = (
+				D2D5F076144AD2B8003ABA81 /* dungeon_master.png */,
+				D2D5F077144AD2B8003ABA81 /* fireball.png */,
 				D2C4CE251445B451002F7EF4 /* chest_lock.png */,
 				D2C4CE261445B451002F7EF4 /* sapling.png */,
 				D21096BB142BD39A0091EBB8 /* apple_iron.png */,
@@ -959,7 +972,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "App Bundle" */;
 			buildPhases = (
-				D23CCD0213A6BF8600C9522A /* Copy Textures (96 items) */,
+				D23CCD0213A6BF8600C9522A /* Copy Textures */,
 				D2D2862A13ABD31B004BDB7B /* Copy minetest.sh */,
 				D23CCC0A13A6BEAE00C9522A /* Copy Irrlicht.framework */,
 				8D11072C0486CEB800E47090 /* Sources */,
@@ -1086,7 +1099,6 @@
 				D23CC91A13A6B2A900C9522A /* map.cpp in Sources */,
 				D23CC91B13A6B2A900C9522A /* mapblock.cpp in Sources */,
 				D2D2899E13AC15FD004BDB7B /* mapblock_mesh.cpp in Sources */,
-				D23CC91C13A6B2A900C9522A /* mapblockobject.cpp in Sources */,
 				D2C8D38F13B76C3C00AE9330 /* mapgen.cpp in Sources */,
 				D23CC91D13A6B2A900C9522A /* mapnode.cpp in Sources */,
 				D23CC91E13A6B2A900C9522A /* mapsector.cpp in Sources */,
@@ -1109,6 +1121,8 @@
 				D257AFC013E3626400CBB8B1 /* guiKeyChangeMenu.cpp in Sources */,
 				D27BCD0C140FBB0C0079B1F7 /* ban.cpp in Sources */,
 				D2C4CE321445B4DB002F7EF4 /* camera.cpp in Sources */,
+				D2D5F074144AD290003ABA81 /* guiDeathScreen.cpp in Sources */,
+				D2D5F075144AD290003ABA81 /* MyBillboardSceneNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
