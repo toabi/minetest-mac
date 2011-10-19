@@ -206,6 +206,7 @@
 		D2D5F075144AD290003ABA81 /* MyBillboardSceneNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F072144AD290003ABA81 /* MyBillboardSceneNode.cpp */; };
 		D2D5F078144AD2D0003ABA81 /* dungeon_master.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2D5F076144AD2B8003ABA81 /* dungeon_master.png */; };
 		D2D5F079144AD2D0003ABA81 /* fireball.png in Copy Textures */ = {isa = PBXBuildFile; fileRef = D2D5F077144AD2B8003ABA81 /* fireball.png */; };
+		D2E92145144F014B00EA300B /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2E92143144F014B00EA300B /* log.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -617,6 +618,8 @@
 		D2D5F073144AD290003ABA81 /* MyBillboardSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBillboardSceneNode.h; sourceTree = "<group>"; };
 		D2D5F076144AD2B8003ABA81 /* dungeon_master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dungeon_master.png; sourceTree = "<group>"; };
 		D2D5F077144AD2B8003ABA81 /* fireball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireball.png; sourceTree = "<group>"; };
+		D2E92143144F014B00EA300B /* log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = log.cpp; sourceTree = "<group>"; };
+		D2E92144144F014B00EA300B /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
 		D2FD4E0613D724E900AD3E45 /* minetest.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = minetest.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -709,6 +712,8 @@
 		D23CC83513A6B2A900C9522A /* src */ = {
 			isa = PBXGroup;
 			children = (
+				D2E92143144F014B00EA300B /* log.cpp */,
+				D2E92144144F014B00EA300B /* log.h */,
 				D2D5F070144AD290003ABA81 /* guiDeathScreen.cpp */,
 				D2D5F071144AD290003ABA81 /* guiDeathScreen.h */,
 				D2D5F072144AD290003ABA81 /* MyBillboardSceneNode.cpp */,
@@ -995,7 +1000,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0410;
+				LastUpgradeCheck = 0420;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "minetest-mac" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1123,6 +1128,7 @@
 				D2C4CE321445B4DB002F7EF4 /* camera.cpp in Sources */,
 				D2D5F074144AD290003ABA81 /* guiDeathScreen.cpp in Sources */,
 				D2D5F075144AD290003ABA81 /* MyBillboardSceneNode.cpp in Sources */,
+				D2E92145144F014B00EA300B /* log.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
