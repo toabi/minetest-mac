@@ -4,3 +4,4 @@
 minetest-mac.xcodeproj/xcuserdata/*
 minetest-mac.xcodeproj/project.xcworkspace/xcuserdata/*
 build/
+InfoPlist.h
