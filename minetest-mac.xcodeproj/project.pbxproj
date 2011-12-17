@@ -104,16 +104,17 @@
 		D27531E413C4A21F004B1554 /* content_cao.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27531DF13C4A21F004B1554 /* content_cao.cpp */; };
 		D27531E513C4A21F004B1554 /* content_sao.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27531E213C4A21F004B1554 /* content_sao.cpp */; };
 		D27BCD0C140FBB0C0079B1F7 /* ban.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27BCD0A140FBB0C0079B1F7 /* ban.cpp */; };
+		D2A0ED74149CD48D008420EA /* mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2A0ED6E149CD48D008420EA /* mesh.cpp */; };
+		D2A0ED75149CD48D008420EA /* mods.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2A0ED70149CD48D008420EA /* mods.cpp */; };
+		D2A0ED76149CD48D008420EA /* serverremoteplayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2A0ED72149CD48D008420EA /* serverremoteplayer.cpp */; };
 		D2C4CE321445B4DB002F7EF4 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C4CE2C1445B4DB002F7EF4 /* camera.cpp */; };
 		D2C8D38F13B76C3C00AE9330 /* mapgen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */; };
 		D2D2862313ABD310004BDB7B /* minetest-mac.sh in Copy minetest.sh */ = {isa = PBXBuildFile; fileRef = D2D2861C13ABD2CD004BDB7B /* minetest-mac.sh */; };
-		D2D2899313AC1529004BDB7B /* content_craft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2898B13AC1529004BDB7B /* content_craft.cpp */; };
 		D2D2899413AC1529004BDB7B /* content_mapblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2898D13AC1529004BDB7B /* content_mapblock.cpp */; };
 		D2D2899513AC1529004BDB7B /* content_mapnode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2898F13AC1529004BDB7B /* content_mapnode.cpp */; };
 		D2D2899613AC1529004BDB7B /* content_nodemeta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2899113AC1529004BDB7B /* content_nodemeta.cpp */; };
 		D2D2899E13AC15FD004BDB7B /* mapblock_mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D2899C13AC15FD004BDB7B /* mapblock_mesh.cpp */; };
 		D2D5F074144AD290003ABA81 /* guiDeathScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F070144AD290003ABA81 /* guiDeathScreen.cpp */; };
-		D2D5F075144AD290003ABA81 /* MyBillboardSceneNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F072144AD290003ABA81 /* MyBillboardSceneNode.cpp */; };
 		D2E92145144F014B00EA300B /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2E92143144F014B00EA300B /* log.cpp */; };
 /* End PBXBuildFile section */
 
@@ -428,6 +429,12 @@
 		D27BCD0A140FBB0C0079B1F7 /* ban.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ban.cpp; sourceTree = "<group>"; };
 		D27BCD0B140FBB0C0079B1F7 /* ban.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ban.h; sourceTree = "<group>"; };
 		D27BCD1A140FBE450079B1F7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		D2A0ED6E149CD48D008420EA /* mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mesh.cpp; sourceTree = "<group>"; };
+		D2A0ED6F149CD48D008420EA /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesh.h; sourceTree = "<group>"; };
+		D2A0ED70149CD48D008420EA /* mods.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mods.cpp; sourceTree = "<group>"; };
+		D2A0ED71149CD48D008420EA /* mods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mods.h; sourceTree = "<group>"; };
+		D2A0ED72149CD48D008420EA /* serverremoteplayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = serverremoteplayer.cpp; sourceTree = "<group>"; };
+		D2A0ED73149CD48D008420EA /* serverremoteplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serverremoteplayer.h; sourceTree = "<group>"; };
 		D2C4CE2C1445B4DB002F7EF4 /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camera.cpp; sourceTree = "<group>"; };
 		D2C4CE2D1445B4DB002F7EF4 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
 		D2C4CE2E1445B4DB002F7EF4 /* defaultsettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defaultsettings.h; sourceTree = "<group>"; };
@@ -437,8 +444,6 @@
 		D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapgen.cpp; sourceTree = "<group>"; };
 		D2C8D38E13B76C3C00AE9330 /* mapgen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapgen.h; sourceTree = "<group>"; };
 		D2D2861C13ABD2CD004BDB7B /* minetest-mac.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "minetest-mac.sh"; sourceTree = "<group>"; };
-		D2D2898B13AC1529004BDB7B /* content_craft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = content_craft.cpp; sourceTree = "<group>"; };
-		D2D2898C13AC1529004BDB7B /* content_craft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_craft.h; sourceTree = "<group>"; };
 		D2D2898D13AC1529004BDB7B /* content_mapblock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = content_mapblock.cpp; sourceTree = "<group>"; };
 		D2D2898E13AC1529004BDB7B /* content_mapblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_mapblock.h; sourceTree = "<group>"; };
 		D2D2898F13AC1529004BDB7B /* content_mapnode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = content_mapnode.cpp; sourceTree = "<group>"; };
@@ -449,8 +454,6 @@
 		D2D2899D13AC15FD004BDB7B /* mapblock_mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapblock_mesh.h; sourceTree = "<group>"; };
 		D2D5F070144AD290003ABA81 /* guiDeathScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guiDeathScreen.cpp; sourceTree = "<group>"; };
 		D2D5F071144AD290003ABA81 /* guiDeathScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiDeathScreen.h; sourceTree = "<group>"; };
-		D2D5F072144AD290003ABA81 /* MyBillboardSceneNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyBillboardSceneNode.cpp; sourceTree = "<group>"; };
-		D2D5F073144AD290003ABA81 /* MyBillboardSceneNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBillboardSceneNode.h; sourceTree = "<group>"; };
 		D2E92143144F014B00EA300B /* log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = log.cpp; sourceTree = "<group>"; };
 		D2E92144144F014B00EA300B /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
 		D2FD4E0613D724E900AD3E45 /* minetest.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = minetest.icns; sourceTree = "<group>"; };
@@ -737,6 +740,12 @@
 		D23CC83513A6B2A900C9522A /* src */ = {
 			isa = PBXGroup;
 			children = (
+				D2A0ED6E149CD48D008420EA /* mesh.cpp */,
+				D2A0ED6F149CD48D008420EA /* mesh.h */,
+				D2A0ED70149CD48D008420EA /* mods.cpp */,
+				D2A0ED71149CD48D008420EA /* mods.h */,
+				D2A0ED72149CD48D008420EA /* serverremoteplayer.cpp */,
+				D2A0ED73149CD48D008420EA /* serverremoteplayer.h */,
 				D22B6BCF1485A6C20052F69D /* server.cpp */,
 				D22B6B391485A66F0052F69D /* content_abm.cpp */,
 				D22B6B3A1485A66F0052F69D /* content_abm.h */,
@@ -764,8 +773,6 @@
 				D2E92144144F014B00EA300B /* log.h */,
 				D2D5F070144AD290003ABA81 /* guiDeathScreen.cpp */,
 				D2D5F071144AD290003ABA81 /* guiDeathScreen.h */,
-				D2D5F072144AD290003ABA81 /* MyBillboardSceneNode.cpp */,
-				D2D5F073144AD290003ABA81 /* MyBillboardSceneNode.h */,
 				D2C4CE2C1445B4DB002F7EF4 /* camera.cpp */,
 				D2C4CE2D1445B4DB002F7EF4 /* camera.h */,
 				D2C4CE2E1445B4DB002F7EF4 /* defaultsettings.h */,
@@ -786,8 +793,6 @@
 				D24C939613AC26CD0080BDF2 /* mapblock_nodemod.h */,
 				D2D2899C13AC15FD004BDB7B /* mapblock_mesh.cpp */,
 				D2D2899D13AC15FD004BDB7B /* mapblock_mesh.h */,
-				D2D2898B13AC1529004BDB7B /* content_craft.cpp */,
-				D2D2898C13AC1529004BDB7B /* content_craft.h */,
 				D2D2898D13AC1529004BDB7B /* content_mapblock.cpp */,
 				D2D2898E13AC1529004BDB7B /* content_mapblock.h */,
 				D2D2898F13AC1529004BDB7B /* content_mapnode.cpp */,
@@ -999,7 +1004,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "DIR_CONTENTS=\"$BUILT_PRODUCTS_DIR/$CONTENTS_FOLDER_PATH\"\nDIR_RESSOUCES=\"$DIR_CONTENTS/Resources\"\necho \"Copying data in $DIR_CONTENTS\"\ncp -r ../data \"$DIR_RESSOUCES\"";
+			shellScript = "DIR_CONTENTS=\"$BUILT_PRODUCTS_DIR/$CONTENTS_FOLDER_PATH\"\nDIR_RESOURCES=\"$DIR_CONTENTS/Resources\"\necho \"Creating folder: $DIR_RESOURCES\"\nmkdir -p \"$DIR_RESOURCES/data\"\necho \"Copying data into $DIR_CONTENTS\"\ncp -r ../data \"$DIR_RESOURCES\"\n";
 		};
 		D27BCD19140FBBDA0079B1F7 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1029,7 +1034,6 @@
 				D23CC8F213A6B2A900C9522A /* collision.cpp in Sources */,
 				D23CC8F313A6B2A900C9522A /* connection.cpp in Sources */,
 				D27531E413C4A21F004B1554 /* content_cao.cpp in Sources */,
-				D2D2899313AC1529004BDB7B /* content_craft.cpp in Sources */,
 				D2D2899413AC1529004BDB7B /* content_mapblock.cpp in Sources */,
 				D2D2899513AC1529004BDB7B /* content_mapnode.cpp in Sources */,
 				D2D2899613AC1529004BDB7B /* content_nodemeta.cpp in Sources */,
@@ -1075,7 +1079,6 @@
 				D27BCD0C140FBB0C0079B1F7 /* ban.cpp in Sources */,
 				D2C4CE321445B4DB002F7EF4 /* camera.cpp in Sources */,
 				D2D5F074144AD290003ABA81 /* guiDeathScreen.cpp in Sources */,
-				D2D5F075144AD290003ABA81 /* MyBillboardSceneNode.cpp in Sources */,
 				D2E92145144F014B00EA300B /* log.cpp in Sources */,
 				D22B6B9B1485A66F0052F69D /* content_abm.cpp in Sources */,
 				D22B6B9C1485A66F0052F69D /* craftdef.cpp in Sources */,
@@ -1087,6 +1090,9 @@
 				D22B6BCB1485A66F0052F69D /* scriptapi.cpp in Sources */,
 				D22B6BCE1485A66F0052F69D /* tooldef.cpp in Sources */,
 				D22B6BD01485A6C20052F69D /* server.cpp in Sources */,
+				D2A0ED74149CD48D008420EA /* mesh.cpp in Sources */,
+				D2A0ED75149CD48D008420EA /* mods.cpp in Sources */,
+				D2A0ED76149CD48D008420EA /* serverremoteplayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
