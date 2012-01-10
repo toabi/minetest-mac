@@ -53,6 +53,7 @@
 		D22B6BD01485A6C20052F69D /* server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22B6BCF1485A6C20052F69D /* server.cpp */; };
 		D22B6BD21485A85C0052F69D /* liblua.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D22B6BD11485A85C0052F69D /* liblua.dylib */; };
 		D22B6BD41485AB9E0052F69D /* liblua.dylib in Copy frameworks */ = {isa = PBXBuildFile; fileRef = D22B6BD11485A85C0052F69D /* liblua.dylib */; };
+		D23BCACA14BCD00800B609C6 /* inventorymanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23BCAC814BCD00800B609C6 /* inventorymanager.cpp */; };
 		D23CC8D613A6B2A900C9522A /* auth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC83713A6B2A900C9522A /* auth.cpp */; };
 		D23CC8D713A6B2A900C9522A /* base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC83913A6B2A900C9522A /* base64.cpp */; };
 		D23CC8D813A6B2A900C9522A /* client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC83B13A6B2A900C9522A /* client.cpp */; };
@@ -315,6 +316,8 @@
 		D22B6B9A1485A66F0052F69D /* tooldef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tooldef.h; sourceTree = "<group>"; };
 		D22B6BCF1485A6C20052F69D /* server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = server.cpp; sourceTree = "<group>"; };
 		D22B6BD11485A85C0052F69D /* liblua.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblua.dylib; path = lib/liblua.dylib; sourceTree = "<group>"; };
+		D23BCAC814BCD00800B609C6 /* inventorymanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = inventorymanager.cpp; sourceTree = "<group>"; };
+		D23BCAC914BCD00800B609C6 /* inventorymanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inventorymanager.h; sourceTree = "<group>"; };
 		D23CC83613A6B2A900C9522A /* activeobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = activeobject.h; sourceTree = "<group>"; };
 		D23CC83713A6B2A900C9522A /* auth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = auth.cpp; sourceTree = "<group>"; };
 		D23CC83813A6B2A900C9522A /* auth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auth.h; sourceTree = "<group>"; };
@@ -740,6 +743,8 @@
 		D23CC83513A6B2A900C9522A /* src */ = {
 			isa = PBXGroup;
 			children = (
+				D23BCAC814BCD00800B609C6 /* inventorymanager.cpp */,
+				D23BCAC914BCD00800B609C6 /* inventorymanager.h */,
 				D2A0ED6E149CD48D008420EA /* mesh.cpp */,
 				D2A0ED6F149CD48D008420EA /* mesh.h */,
 				D2A0ED70149CD48D008420EA /* mods.cpp */,
@@ -1093,6 +1098,7 @@
 				D2A0ED74149CD48D008420EA /* mesh.cpp in Sources */,
 				D2A0ED75149CD48D008420EA /* mods.cpp in Sources */,
 				D2A0ED76149CD48D008420EA /* serverremoteplayer.cpp in Sources */,
+				D23BCACA14BCD00800B609C6 /* inventorymanager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
