@@ -43,13 +43,11 @@
 		D229ECB213D8B09400A73395 /* minetest.icns in Resources */ = {isa = PBXBuildFile; fileRef = D2FD4E0613D724E900AD3E45 /* minetest.icns */; };
 		D22B6B9B1485A66F0052F69D /* content_abm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22B6B391485A66F0052F69D /* content_abm.cpp */; };
 		D22B6B9C1485A66F0052F69D /* craftdef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22B6B3B1485A66F0052F69D /* craftdef.cpp */; };
-		D22B6B9D1485A66F0052F69D /* craftitemdef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22B6B3D1485A66F0052F69D /* craftitemdef.cpp */; };
 		D22B6BC71485A66F0052F69D /* luaentity_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22B6B8A1485A66F0052F69D /* luaentity_common.cpp */; };
 		D22B6BC81485A66F0052F69D /* nameidmapping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22B6B8D1485A66F0052F69D /* nameidmapping.cpp */; };
 		D22B6BC91485A66F0052F69D /* nodedef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22B6B8F1485A66F0052F69D /* nodedef.cpp */; };
 		D22B6BCA1485A66F0052F69D /* script.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22B6B911485A66F0052F69D /* script.cpp */; };
 		D22B6BCB1485A66F0052F69D /* scriptapi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22B6B931485A66F0052F69D /* scriptapi.cpp */; };
-		D22B6BCE1485A66F0052F69D /* tooldef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22B6B991485A66F0052F69D /* tooldef.cpp */; };
 		D22B6BD01485A6C20052F69D /* server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22B6BCF1485A6C20052F69D /* server.cpp */; };
 		D22B6BD21485A85C0052F69D /* liblua.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D22B6BD11485A85C0052F69D /* liblua.dylib */; };
 		D22B6BD41485AB9E0052F69D /* liblua.dylib in Copy frameworks */ = {isa = PBXBuildFile; fileRef = D22B6BD11485A85C0052F69D /* liblua.dylib */; };
@@ -82,7 +80,6 @@
 		D23CC91D13A6B2A900C9522A /* mapnode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC8AC13A6B2A900C9522A /* mapnode.cpp */; };
 		D23CC91E13A6B2A900C9522A /* mapsector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC8AE13A6B2A900C9522A /* mapsector.cpp */; };
 		D23CC91F13A6B2A900C9522A /* materials.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC8B013A6B2A900C9522A /* materials.cpp */; };
-		D23CC92013A6B2A900C9522A /* mineral.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC8B213A6B2A900C9522A /* mineral.cpp */; };
 		D23CC92113A6B2A900C9522A /* nodemetadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC8B513A6B2A900C9522A /* nodemetadata.cpp */; };
 		D23CC92213A6B2A900C9522A /* noise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC8B713A6B2A900C9522A /* noise.cpp */; };
 		D23CC92313A6B2A900C9522A /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D23CC8B913A6B2A900C9522A /* player.cpp */; };
@@ -108,6 +105,7 @@
 		D2A0ED74149CD48D008420EA /* mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2A0ED6E149CD48D008420EA /* mesh.cpp */; };
 		D2A0ED75149CD48D008420EA /* mods.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2A0ED70149CD48D008420EA /* mods.cpp */; };
 		D2A0ED76149CD48D008420EA /* serverremoteplayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2A0ED72149CD48D008420EA /* serverremoteplayer.cpp */; };
+		D2C43A1114F26EE1002D0098 /* itemdef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C43A0F14F26EE1002D0098 /* itemdef.cpp */; };
 		D2C4CE321445B4DB002F7EF4 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C4CE2C1445B4DB002F7EF4 /* camera.cpp */; };
 		D2C8D38F13B76C3C00AE9330 /* mapgen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2C8D38D13B76C3C00AE9330 /* mapgen.cpp */; };
 		D2D2862313ABD310004BDB7B /* minetest-mac.sh in Copy minetest.sh */ = {isa = PBXBuildFile; fileRef = D2D2861C13ABD2CD004BDB7B /* minetest-mac.sh */; };
@@ -296,8 +294,6 @@
 		D22B6B3A1485A66F0052F69D /* content_abm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = content_abm.h; sourceTree = "<group>"; };
 		D22B6B3B1485A66F0052F69D /* craftdef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = craftdef.cpp; sourceTree = "<group>"; };
 		D22B6B3C1485A66F0052F69D /* craftdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = craftdef.h; sourceTree = "<group>"; };
-		D22B6B3D1485A66F0052F69D /* craftitemdef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = craftitemdef.cpp; sourceTree = "<group>"; };
-		D22B6B3E1485A66F0052F69D /* craftitemdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = craftitemdef.h; sourceTree = "<group>"; };
 		D22B6B3F1485A66F0052F69D /* gamedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gamedef.h; sourceTree = "<group>"; };
 		D22B6B401485A66F0052F69D /* irrlichttypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = irrlichttypes.h; sourceTree = "<group>"; };
 		D22B6B4D1485A66F0052F69D /* logoutputbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logoutputbuffer.h; sourceTree = "<group>"; };
@@ -312,8 +308,6 @@
 		D22B6B921485A66F0052F69D /* script.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = script.h; sourceTree = "<group>"; };
 		D22B6B931485A66F0052F69D /* scriptapi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scriptapi.cpp; sourceTree = "<group>"; };
 		D22B6B941485A66F0052F69D /* scriptapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scriptapi.h; sourceTree = "<group>"; };
-		D22B6B991485A66F0052F69D /* tooldef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tooldef.cpp; sourceTree = "<group>"; };
-		D22B6B9A1485A66F0052F69D /* tooldef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tooldef.h; sourceTree = "<group>"; };
 		D22B6BCF1485A6C20052F69D /* server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = server.cpp; sourceTree = "<group>"; };
 		D22B6BD11485A85C0052F69D /* liblua.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblua.dylib; path = lib/liblua.dylib; sourceTree = "<group>"; };
 		D23BCAC814BCD00800B609C6 /* inventorymanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = inventorymanager.cpp; sourceTree = "<group>"; };
@@ -381,8 +375,6 @@
 		D23CC8AF13A6B2A900C9522A /* mapsector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapsector.h; sourceTree = "<group>"; };
 		D23CC8B013A6B2A900C9522A /* materials.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = materials.cpp; sourceTree = "<group>"; };
 		D23CC8B113A6B2A900C9522A /* materials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = materials.h; sourceTree = "<group>"; };
-		D23CC8B213A6B2A900C9522A /* mineral.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mineral.cpp; sourceTree = "<group>"; };
-		D23CC8B313A6B2A900C9522A /* mineral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mineral.h; sourceTree = "<group>"; };
 		D23CC8B413A6B2A900C9522A /* modalMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modalMenu.h; sourceTree = "<group>"; };
 		D23CC8B513A6B2A900C9522A /* nodemetadata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nodemetadata.cpp; sourceTree = "<group>"; };
 		D23CC8B613A6B2A900C9522A /* nodemetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nodemetadata.h; sourceTree = "<group>"; };
@@ -438,6 +430,8 @@
 		D2A0ED71149CD48D008420EA /* mods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mods.h; sourceTree = "<group>"; };
 		D2A0ED72149CD48D008420EA /* serverremoteplayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = serverremoteplayer.cpp; sourceTree = "<group>"; };
 		D2A0ED73149CD48D008420EA /* serverremoteplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serverremoteplayer.h; sourceTree = "<group>"; };
+		D2C43A0F14F26EE1002D0098 /* itemdef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = itemdef.cpp; sourceTree = "<group>"; };
+		D2C43A1014F26EE1002D0098 /* itemdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itemdef.h; sourceTree = "<group>"; };
 		D2C4CE2C1445B4DB002F7EF4 /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camera.cpp; sourceTree = "<group>"; };
 		D2C4CE2D1445B4DB002F7EF4 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
 		D2C4CE2E1445B4DB002F7EF4 /* defaultsettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defaultsettings.h; sourceTree = "<group>"; };
@@ -743,6 +737,8 @@
 		D23CC83513A6B2A900C9522A /* src */ = {
 			isa = PBXGroup;
 			children = (
+				D2C43A0F14F26EE1002D0098 /* itemdef.cpp */,
+				D2C43A1014F26EE1002D0098 /* itemdef.h */,
 				D23BCAC814BCD00800B609C6 /* inventorymanager.cpp */,
 				D23BCAC914BCD00800B609C6 /* inventorymanager.h */,
 				D2A0ED6E149CD48D008420EA /* mesh.cpp */,
@@ -756,8 +752,6 @@
 				D22B6B3A1485A66F0052F69D /* content_abm.h */,
 				D22B6B3B1485A66F0052F69D /* craftdef.cpp */,
 				D22B6B3C1485A66F0052F69D /* craftdef.h */,
-				D22B6B3D1485A66F0052F69D /* craftitemdef.cpp */,
-				D22B6B3E1485A66F0052F69D /* craftitemdef.h */,
 				D22B6B3F1485A66F0052F69D /* gamedef.h */,
 				D22B6B401485A66F0052F69D /* irrlichttypes.h */,
 				D22B6B4D1485A66F0052F69D /* logoutputbuffer.h */,
@@ -772,8 +766,6 @@
 				D22B6B921485A66F0052F69D /* script.h */,
 				D22B6B931485A66F0052F69D /* scriptapi.cpp */,
 				D22B6B941485A66F0052F69D /* scriptapi.h */,
-				D22B6B991485A66F0052F69D /* tooldef.cpp */,
-				D22B6B9A1485A66F0052F69D /* tooldef.h */,
 				D2E92143144F014B00EA300B /* log.cpp */,
 				D2E92144144F014B00EA300B /* log.h */,
 				D2D5F070144AD290003ABA81 /* guiDeathScreen.cpp */,
@@ -867,8 +859,6 @@
 				D23CC8AF13A6B2A900C9522A /* mapsector.h */,
 				D23CC8B013A6B2A900C9522A /* materials.cpp */,
 				D23CC8B113A6B2A900C9522A /* materials.h */,
-				D23CC8B213A6B2A900C9522A /* mineral.cpp */,
-				D23CC8B313A6B2A900C9522A /* mineral.h */,
 				D23CC8B413A6B2A900C9522A /* modalMenu.h */,
 				D23CC8B513A6B2A900C9522A /* nodemetadata.cpp */,
 				D23CC8B613A6B2A900C9522A /* nodemetadata.h */,
@@ -1066,7 +1056,6 @@
 				D23CC91D13A6B2A900C9522A /* mapnode.cpp in Sources */,
 				D23CC91E13A6B2A900C9522A /* mapsector.cpp in Sources */,
 				D23CC91F13A6B2A900C9522A /* materials.cpp in Sources */,
-				D23CC92013A6B2A900C9522A /* mineral.cpp in Sources */,
 				D23CC92113A6B2A900C9522A /* nodemetadata.cpp in Sources */,
 				D23CC92213A6B2A900C9522A /* noise.cpp in Sources */,
 				D23CC92313A6B2A900C9522A /* player.cpp in Sources */,
@@ -1087,18 +1076,17 @@
 				D2E92145144F014B00EA300B /* log.cpp in Sources */,
 				D22B6B9B1485A66F0052F69D /* content_abm.cpp in Sources */,
 				D22B6B9C1485A66F0052F69D /* craftdef.cpp in Sources */,
-				D22B6B9D1485A66F0052F69D /* craftitemdef.cpp in Sources */,
 				D22B6BC71485A66F0052F69D /* luaentity_common.cpp in Sources */,
 				D22B6BC81485A66F0052F69D /* nameidmapping.cpp in Sources */,
 				D22B6BC91485A66F0052F69D /* nodedef.cpp in Sources */,
 				D22B6BCA1485A66F0052F69D /* script.cpp in Sources */,
 				D22B6BCB1485A66F0052F69D /* scriptapi.cpp in Sources */,
-				D22B6BCE1485A66F0052F69D /* tooldef.cpp in Sources */,
 				D22B6BD01485A6C20052F69D /* server.cpp in Sources */,
 				D2A0ED74149CD48D008420EA /* mesh.cpp in Sources */,
 				D2A0ED75149CD48D008420EA /* mods.cpp in Sources */,
 				D2A0ED76149CD48D008420EA /* serverremoteplayer.cpp in Sources */,
 				D23BCACA14BCD00800B609C6 /* inventorymanager.cpp in Sources */,
+				D2C43A1114F26EE1002D0098 /* itemdef.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
