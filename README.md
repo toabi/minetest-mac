@@ -1,5 +1,7 @@
 # Xcode project to build minetest
 
+**ATTENTION: IT IS CURRENTLY BROKEN AND NEEDS SOME MODIFICATION IN THE BUILD SCRIPTS. SEE <https://github.com/toabi/minetest-mac/issues/2>**
+
 This Xcode project can be used to build [minetest-c55](https://github.com/celeron55/minetest).
 
 Fore more information have a look the [official homepage](http://c55.me/minetest/).
